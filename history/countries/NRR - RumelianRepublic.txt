@@ -1,0 +1,16 @@
+government = republic
+government_rank = 2
+primary_culture = turkish_2 
+religion = neo_kemalism
+technology_group = muslim
+capital = 39
+
+2223.1.1 = {
+	monarch = {
+		name = "Necip Bulancak"
+		birth_date = 2190.1.1
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

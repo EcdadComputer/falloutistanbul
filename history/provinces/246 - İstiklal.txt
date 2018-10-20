@@ -1,0 +1,13 @@
+add_core = PRC
+owner = PRC
+controller = PRC
+culture = turkish_2 
+religion = neo_kemalism
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Istýklal"
+is_city = yes
+discovered_by = muslim

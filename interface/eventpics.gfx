@@ -1,0 +1,34 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "ISTANBUL_eventPicture"
+		texturefile = "gfx/event_pictures/ISTANBUL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "BILO_eventPicture"
+		texturefile = "gfx/event_pictures/BILO_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "BAKIRKOY_eventPicture"
+		texturefile = "gfx/event_pictures/BAKIRKOY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "DEMIREL_eventPicture"
+		texturefile = "gfx/event_pictures/DEMIREL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "BEYOGLU_eventPicture"
+		texturefile = "gfx/event_pictures/BEYOGLU_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "ERBAKAN_eventPicture"
+		name = "ERBAKAN_eventPicture"
+		texturefile = "gfx/event_pictures/ERBAKAN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	}

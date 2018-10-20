@@ -1,0 +1,77 @@
+kemalism_group = {
+	flag_emblem_index_range = { 110 110 }
+	neo_kemalism = {
+		icon = 1
+		color = { 84 49 44 }
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country = {
+			tolerance_own = 2
+			trade_efficiency = 0.1
+		}
+		country_as_secondary = {
+			merchants = 1
+			tolerance_own = 1
+		}
+		
+		heretic = { KADRO SOL }	
+	}
+	
+	harmonized_modifier = harmonized_kemalism_group
+	
+	crusade_name = HOLY_WAR
+	
+}
+
+islamic_group = {
+	flag_emblem_index_range = { 110 110 }
+	islamism = {
+		icon = 2
+		color = { 0 128 0 }
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country = {
+			tolerance_own = 2
+			trade_efficiency = 0.1
+		}
+		country_as_secondary = {
+			merchants = 1
+			tolerance_own = 1
+		}
+		
+		heretic = { SHIA ALAWITE }	
+	}
+	
+	harmonized_modifier = harmonized_kemalism_group
+	
+	crusade_name = HOLY_WAR
+	
+}
+
+christian_group = {
+	flag_emblem_index_range = { 110 110 }
+	christianism = {
+		icon = 3
+		color = { 200 200 0 }
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country = {
+			tolerance_own = 2
+			trade_efficiency = 0.1
+		}
+		country_as_secondary = {
+			merchants = 1
+			tolerance_own = 1
+		}
+		
+		heretic = { KADRO SOL }	
+	}
+	
+	harmonized_modifier = harmonized_kemalism_group
+	
+	crusade_name = HOLY_WAR
+	
+}

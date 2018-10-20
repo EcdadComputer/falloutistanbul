@@ -1,0 +1,24 @@
+kemalist_republic = {
+	rank = {
+		1 = REPUBLIC
+		2 = REPUBLIC
+		3 = GREAT_REPUBLIC
+	}
+
+	ruler_male = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = NATIONAL_CHEF
+	}
+
+	ruler_female = {
+		1 = PRESIDENT
+		2 = PRESIDENT
+		3 = NATIONAL_CHEF
+	}
+
+	trigger = {
+		government = republic
+		religion_group = kemalism_group
+	}
+}

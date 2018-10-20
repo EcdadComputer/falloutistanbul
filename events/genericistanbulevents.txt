@@ -1,0 +1,158 @@
+namespace = fi
+
+country_event = {
+	id = fi.1
+    title = "fi.1_title"
+	desc = "fi.1_desc"
+	picture = ISTANBUL_eventPicture
+	trigger = {
+		is_year = 2223
+		NOT = { has_country_flag = introduction }
+    }
+	mean_time_to_happen = {
+	months = 1
+	}
+	option = {
+	name = "EVTOPA.fi.1"
+	country_event = { id = fi.2 }
+	}
+	option = {
+	name = "EVTOPB.fi.1" 
+	country_event = { id = fi.3 }
+	}
+	option = {
+	name = "EVTOPC.fi.1"
+	country_event = { id = fi.4 }
+	}
+	option = {
+	name = "EVTOPD.fi.1" 
+	country_event = { id = fi.5 }
+	}
+	option = {
+	name = "EVTOPE.fi.1"
+	country_event = { id = fi.6 }
+	}
+	option = {
+	name = "EVTOPF.fi.1"
+	country_event = { id = fi.7 }
+	}
+	option = {
+	name = "EVTOPH.fi.1"
+	country_event = { id = fi.8 }
+	}
+	option = {
+	name = "EVTOPI.fi.1"
+	country_event = { id = fi.9 }
+	}
+	option = {
+	name = "EVTOPG.fi.1"
+	set_country_flag = introduction
+	}
+}
+
+country_event = {
+	id = fi.2
+        title = "fi.2_title"
+	desc = "fi.2_desc"
+	picture = BAKIRKOY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+
+country_event = {
+	id = fi.3
+        title = "fi.3_title"
+	desc = "fi.3_desc"
+	picture = ERBAKAN_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+country_event = {
+	id = fi.4
+        title = "fi.4_title"
+	desc = "fi.4_desc"
+	picture = BILO_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+country_event = {
+	id = fi.5
+        title = "fi.5_title"
+	desc = "fi.5_desc"
+	picture = DENIZ_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+country_event = {
+	id = fi.6
+        title = "fi.6_title"
+	desc = "fi.6_desc"
+	picture = DEMIREL_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+country_event = {
+	id = fi.7
+        title = "fi.7_title"
+	desc = "fi.7_desc"
+	picture = YESILCAM_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+country_event = {
+	id = fi.8
+        title = "fi.8_title"
+	desc = "fi.8_desc"
+	picture = BEYOGLU_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}
+
+country_event = {
+	id = fi.9
+        title = "fi.9_title"
+	desc = "fi.9_desc"
+	picture = TURKISTS_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+	name = "EVTOPA.fi.2"
+	country_event = { id = fi.1 }
+	}
+}

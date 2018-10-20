@@ -1,0 +1,9 @@
+bookmark =
+{
+	name = "THIRD_CENTURY_OF_THE_REPUBLIC"
+	desc = ""THIRD_CENTURY_OF_THE_REPUBLIC"_DESC"
+	date = 2223.10.29
+	
+	center = 2
+	default = yes
+}

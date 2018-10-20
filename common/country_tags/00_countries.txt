@@ -1,0 +1,10 @@
+# Special countries..
+REB = "countries/Rebels.txt"
+PIR = "countries/Pirates.txt"
+NAT = "countries/Natives.txt"
+
+NRR = "countries/RumelianRepublic.txt"
+LCT = "countries/LionsofCrescent.txt"
+PRC = "countries/PeranConfederation.txt"
+SOT = "countries/SonsofTengri.txt"
+
