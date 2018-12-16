@@ -1,3 +1,17 @@
+add_core = SOT
+owner = SOT
+controller = SOT
+culture = new_turkish
+religion = panturkism
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 7
+trade_goods = grain
+capital = "Feyzullah"
+is_city = yes
+
+discovered_by = muslim
 
 
 

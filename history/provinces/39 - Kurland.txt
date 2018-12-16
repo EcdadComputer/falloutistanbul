@@ -4,11 +4,11 @@ controller = NRR
 culture = turkish_2
 religion = neo_kemalism
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 trade_goods = grain
 capital = "Yenimahalle"
 is_city = yes
-
+fort_15th = yes 
 discovered_by = muslim

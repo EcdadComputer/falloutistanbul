@@ -1,3 +1,17 @@
+add_core = NRR
+owner = NRR
+controller = NRR
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Yesilyurt"
+is_city = yes
+
+discovered_by = muslim
 
 
 

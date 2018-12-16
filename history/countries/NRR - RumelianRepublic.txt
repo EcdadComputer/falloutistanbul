@@ -1,4 +1,5 @@
 government = republic
+add_government_reform = constitutional_republic
 government_rank = 2
 primary_culture = turkish_2 
 religion = neo_kemalism
@@ -7,10 +8,10 @@ capital = 39
 
 2223.1.1 = {
 	monarch = {
-		name = "Necip Bulancak"
-		birth_date = 2190.1.1
+		name = "Ercüment Akgün"
+		birth_date = 2170.2.6
 		adm = 4
 		dip = 2
-		mil = 5
+		mil = 4
 	}
 }

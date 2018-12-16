@@ -1,3 +1,18 @@
+add_core = ESN
+owner = ESN
+controller = ESN
+culture = turkish_2
+religion = national_revolutionism
+hre = no
+base_tax = 6
+base_production = 5
+base_manpower = 6
+trade_goods = grain
+capital = "Oruç Reis"
+is_city = yes
+
+discovered_by = muslim
+
 
 
 

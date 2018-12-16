@@ -1,0 +1,18 @@
+add_core = PRC
+owner = PRC
+controller = PRC
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Örnektepe"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+

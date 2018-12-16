@@ -1,0 +1,23 @@
+add_core = PRC
+owner = PRC
+controller = PRC
+culture = armenian_2
+religion = christianism
+hre = no
+base_tax = 6
+base_production = 7
+base_manpower = 6
+trade_goods = grain
+capital = "Kaptanpasa"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+
+
+
+
+

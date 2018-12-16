@@ -1,0 +1,47 @@
+vassal = { 
+	first = TCO
+	second = ALB
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = CBC
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = BYP
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = HBP
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = DMK
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = ESN
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = GON
+	start_date = 2223.1.1
+}
+
+vassal = { 
+	first = TCO
+	second = GOS
+	start_date = 2223.1.1
+}

@@ -1,0 +1,19 @@
+add_core = FTH
+owner = FTH
+controller = FTH
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 5
+trade_goods = grain
+capital = "Silivrikapi"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+

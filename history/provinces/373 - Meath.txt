@@ -1,6 +1,17 @@
+add_core = SIS
+owner = SIS
+controller = SIS
+culture = turkish_2
+religion = ittihadism
+hre = no
+base_tax = 8
+base_production = 7
+base_manpower = 7
+trade_goods = grain
+capital = "Nurtepe"
+is_city = yes
 
-
-
+discovered_by = muslim
 
 
 

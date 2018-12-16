@@ -1,0 +1,15 @@
+add_core = SOT
+owner = SOT
+controller = SOT
+culture = turkish_2
+religion = panturkism
+hre = no
+base_tax = 10
+base_production = 11
+base_manpower = 10
+trade_goods = grain
+capital = "Bostanci"
+is_city = yes
+
+discovered_by = muslim
+

@@ -1,3 +1,17 @@
+add_core = ORT
+owner = ORT
+controller = ORT
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 5
+trade_goods = grain
+capital = "Çengelköy"
+is_city = yes
+
+discovered_by = muslim
 
 
 

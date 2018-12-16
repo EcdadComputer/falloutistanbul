@@ -1,0 +1,22 @@
+add_core = FTH
+owner = FTH
+controller = FTH
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 2
+base_production = 5
+base_manpower = 2
+trade_goods = grain
+capital = "Cagaoglu"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+
+
+
+

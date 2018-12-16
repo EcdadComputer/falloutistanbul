@@ -1,0 +1,17 @@
+government = commune
+add_government_reform = local_commune
+government_rank = 2
+primary_culture = turkish_2 
+religion = national_revolutionism
+technology_group = muslim
+capital = 39
+
+2223.1.1 = {
+	monarch = {
+		name = "Vural Saylan"
+		birth_date = 2160.2.20
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

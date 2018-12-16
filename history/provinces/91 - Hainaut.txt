@@ -1,3 +1,20 @@
+add_core = LCT
+owner = LCT
+controller = LCT
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 8
+trade_goods = grain
+capital = "Gaziosmanpasa"
+is_city = yes
+
+discovered_by = muslim
+
+
+
 
 
 

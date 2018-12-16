@@ -1,0 +1,17 @@
+add_core = CBC
+owner = CBC
+controller = CBC
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = grain
+capital = "South Mimarsinan"
+is_city = yes
+
+discovered_by = muslim
+
+
+

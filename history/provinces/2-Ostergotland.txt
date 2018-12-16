@@ -1,0 +1,16 @@
+add_core = FTH
+owner = FTH
+controller = FTH
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+trade_goods = grain
+capital = "Kocamustafapasa"
+is_city = yes
+
+discovered_by = muslim
+
+

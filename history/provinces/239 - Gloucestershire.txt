@@ -1,0 +1,18 @@
+add_core = PRC
+owner = PRC
+controller = PRC
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 5
+base_production = 4
+base_manpower = 4
+trade_goods = grain
+capital = "Halicioglu"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+

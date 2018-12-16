@@ -1,0 +1,15 @@
+add_core = DMK
+owner = DMK
+controller = DMK
+culture = turkish_2
+religion = national_revolutionism
+hre = no
+base_tax = 6
+base_production = 8
+base_manpower = 10
+trade_goods = grain
+capital = "Göztepe"
+is_city = yes
+
+discovered_by = muslim
+

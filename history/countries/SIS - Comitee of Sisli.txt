@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = republican_dictatorship
+government_rank = 2
+primary_culture = turkish_2 
+religion = ittihadism
+technology_group = muslim
+capital = 57
+
+2223.1.1 = {
+	monarch = {
+		name = "Zekeriya Pasha"
+		birth_date = 2187.5.7
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

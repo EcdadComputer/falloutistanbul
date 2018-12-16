@@ -7,7 +7,7 @@ religion = christianism
 capital = 56
 
 
-1414.1.1 = {
+2222.1.1 = {
 	monarch = {
 		name = "Andreas Adali"
 		adm = 4

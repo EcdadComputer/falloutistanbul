@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//holy_sites//fener.dds"
+	}
+
+	spriteType = {
+		name = "GFX_holy_site_12"
+		texturefile = "gfx//interface//holy_sites//fener.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_56"
+		texturefile = "gfx//interface//holy_sites//ayatriada.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_64"
+		texturefile = "gfx//interface//holy_sites//buyukada.dds"
+		loadType = "INGAME"
+	}	
+
+	spriteType = {
+		name = "GFX_holy_site_62"
+		texturefile = "gfx//interface//holy_sites//kadikoy.dds"
+		loadType = "INGAME"
+	}	
+	
+}

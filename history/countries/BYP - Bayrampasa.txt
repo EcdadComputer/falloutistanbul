@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = local_commune
+government_rank = 2
+primary_culture = turkish_2 
+religion = national_revolutionism
+technology_group = muslim
+capital = 90
+
+2223.1.1 = {
+	monarch = {
+		name = "Abdüllatif Kartal"
+		birth_date = 2148.2.20
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,3 +1,17 @@
+add_core = LCT
+owner = LCT
+controller = LCT
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = grain
+capital = "Eyüp Merkez"
+is_city = yes
+
+discovered_by = muslim
 
 
 

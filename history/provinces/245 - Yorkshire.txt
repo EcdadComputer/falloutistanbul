@@ -1,0 +1,23 @@
+add_core = PRC
+owner = PRC
+controller = PRC
+culture = armenian_2
+religion = christianism
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+trade_goods = grain
+capital = "Haciahmet"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+
+
+
+
+

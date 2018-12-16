@@ -1,0 +1,19 @@
+add_core = FTH
+owner = FTH
+controller = FTH
+culture = turkish_2
+religion = national_revolutionism
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Beyazit"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+

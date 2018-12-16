@@ -22,3 +22,53 @@ kemalist_republic = {
 		religion_group = kemalism_group
 	}
 }
+
+commune_vassal = {
+	rank = {
+		1 = COMMUNE
+		2 = GRAND_COMMUNE
+		3 = GRAND_COMMUNE
+	}
+
+	ruler_male = {
+		1 = REPRESENTATIVE
+		2 = REPRESENTATIVE
+		3 = REPRESENTATIVE
+	}
+
+	ruler_female = {
+		1 = REPRESENTATIVE
+		2 = REPRESENTATIVE
+		3 = REPRESENTATIVE
+	}
+
+	trigger = {
+		government = commune
+		has_reform = local_commune
+	}
+}
+
+general_secretary = {
+	rank = {
+		1 = PARTY_SECRETARIAT
+		2 = GENERAL_SECRETARIAT
+		3 = GENERAL_SECRETARIAT
+	}
+
+	ruler_male = {
+		1 = PARTY_SECRETARY
+		2 = GENERAL_SECRETARY
+		3 = GENERAL_SECRETARY
+	}
+
+	ruler_female = {
+		1 = PARTY_SECRETARY
+		2 = GENERAL_SECRETARY
+		3 = GENERAL_SECRETARY
+	}
+
+	trigger = {
+		government = commune
+		has_reform = central_commune
+	}
+}

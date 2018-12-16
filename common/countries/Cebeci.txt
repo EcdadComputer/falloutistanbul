@@ -1,0 +1,72 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 163  1  44 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	quality_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Muhammed #0" = 20
+	"Izzeddin #0" = 20
+	"Taceddin #1" = 20
+	"Ishak #0" = 20
+	"Ahmed #0" = 20
+	"Kasim #0" = 20
+	"Mahmud #0" = 20
+	"Ibrahim #0" = 10
+	"Ali #0" = 10
+	"Mustafa #0" = 10
+	"Dervis #0" = 10 
+	
+	"Havva #0" = -1
+	"Gamze #0" = -1
+	"Hanife #0" = -1
+	"Melis #0" = -1
+	"Rabia #0" = -1
+	"Safiye #0" = -1
+	"Umut #0" = -1
+	"Ziynet #0" = -1
+	"Zübeyde #0" = -1
+}
+
+leader_names = {
+	Mehmet Mustafa Murat Ahmet Ali "Mehmet Ali" "Yunus Emre" Serkan Hüseyin Hasan Ýbrahim Fatih Ýsmail Ramazan Hakan Ömer Adem Osman Erkan Yusuf Serdar Abdullah Halil Süleyman Özgür Orhan Metin Kenan Mahmut Sinan Gökhan Ercan Engin Erhan Kadir Ayhan Mesut Recep Ugur Ümit Sedat Salih Kemal Yýlmaz Harun Erdal Bayram Volkan Baris Yasin Ferhat Cengiz Aydin Erol Levent Yasar Bülent Musa Özkan Ýsa Muhammet Yunus Emre Yakup Tuncay Bekir Selçuk Bilal Ersin Zafer Ferdi Yavuz Onur Ýlhan Arif Faruk Deniz Nihat Özcan Selim Soner Vedat Emrah Cemil Senol Muharrem Ýlker Abdurrahman Ýrfan Cemal Suat Turgay Tarýk Ekrem Cem Oktay Erdem Alper Taner Cetin Umut
+}
+
+ship_names = {
+	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek
+	Mut Gülnar Mer Silifke Cilicia Larande
+	Bunsuz "Zeynül-Hac" "Semseddin Mehmet" Göksu
+}
+
+army_names = {
+	"$PROVINCE$ Ordusu"
+}
+
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

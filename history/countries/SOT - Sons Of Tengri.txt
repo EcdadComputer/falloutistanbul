@@ -2,15 +2,15 @@ government = tribal
 
 add_government_reform = steppe_horde
 government_rank = 2
-primary_culture = new_turkish_2 
-religion = neo_kemalism
+primary_culture = new_turkish
+religion = panturkism
 technology_group = muslim
-capital = 217
+capital = 639
 
 2219.1.1 = {
 	monarch = {
 		name = "Ilteris Kagan"
-		dynasty = Polatoglu
+		dynasty = Asaloglu
 		birth_date = 2179.1.1
 		adm = 4
 		dip = 4

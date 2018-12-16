@@ -13,6 +13,7 @@ fatih_region = {
 		capa_area
 		balat_area
 		eminonu_area
+		sultanahmet_area 
     }
 }
 
@@ -48,16 +49,322 @@ bahcelievler_region = {
 	   sirinevler_area
 	   gungoren_area
 	   gunestepe_area
-	   bagcilar_area
-	   baglar_area
-	   mahmutbey_area
-	   kemalpasa_area
+    }
+}
+
+kucukcekmece_region = {
+    areas = {
+	kucukcekmece_area 
+	sefakoy_area 
+	halkali_area 
+	istoc_area 
+	avcilar_area 
+	ambarli_area 
+	firuzkoy_area 
+	basaksehir_area 
+	kayasehir_area 
+	bahcesehir_area 
+    }
+}
+
+buyukcekmece_region = {
+    areas = {
+	yakuplu_area
+	kavakli_area
+	gurpinar_area
+	beylikduzu_area
+	haramidere_area
+	kirac_area
+	mehtercesme_area
+	esenyurt_area
+	esenkent_area
+	akcaburgaz_area
+	buyukcekmece_area
+	mimaroba_area
+	kumburgaz_area
+    }
+}
+
+silivri_region = {
+    areas = {
+	selimpasa_area
+	silivri_area
+	mimarsinan_area
+	gumusyaka_area
+	kilicli_area
+	gazitepe_area
+	cayirdere_area
+	sinekli_area
+	danamandira_area
+    }
+}
+
+catalca_region = {
+    areas = {
+	catalca_area
+	kaleici_area
+	orcunlu_area
+	gokceali_area
+	dagyenice_area
+	hisarbeyli_area
+	yalikoy_area
+	karacakoy_area
+	yaylacik_area
+	akalan_area
+    }
+}
+
+arnavutkoy_region = {
+    areas = {
+	sazlidere_area
+	nakkas_area
+	arnavutkoy_area
+	north_arnavutkoy_area
+	hacimsasli_area
+	bogazkoy_area
+	mavigol_area
+	karaburun_area
+	yenikoy_area
+	tayakadin_area
+	dursunkoy_area
+    }
+}
+
+eyup_region = {
+    areas = {
+	defterdar_area
+	eyup_area
+	alibeykoy_area
+	rami_area
+	cebeci_area
+	gokturk_area
+	agacli_area
+    }
+}
+
+beyoglu_region = {
+    areas = {
+	galata_area
+	gumussuyu_area
+	taksim_area
+	istiklal_area
+	camikebir_area
+	halicioglu_area
+    }
+}
+
+besiktas_region = {
+    areas = {
+	besiktas_area
+	gayrettepe_area
+	ortakoy_area
+	etiler_area
+	levent_area
+    }
+}
+
+sisli_region = {
+    areas = {
+	tesvikiye_area
+	ferikoy_area
+	sisli_area
+	mecidiyekoy_area
+	okmeydani_area
+	kagithane_area
+	seyrantepe_area
+	maslak_area
+    }
+}
+
+sariyer_region = {
+    areas = {
+	rumeli_hisari_area
+	istinye_area
+	resitpasa_area
+	tarabya_area
+	bahcekoy_area
+	zekeriyakoy_area
+	kilyos_area
+	rumeli_feneri_area
+	sariyer_area
+    }
+}
+
+bagcilar_region = {
+    areas = {
+	bagcilar_area
+	baglar_area
+	mahmutbey_area
+	kemalpasa_area
+    }
+}
+
+#Anadolu Yakası
+
+uskudar_region = {
+    areas = {
+	uskudar_area
+	selimali_area
+	selimiye_area
+	altunizade_area
+	kucukcamlica_area
+	beylerbeyi_area
+	cengelkoy_area
+	kandilli_area
+	ferah_area
+	esatpasa_area
+	atasehir_area
     }
 }
 
 kadikoy_region = {
     areas = {
-        kadikoy_area
+	kadikoy_area
+	fenerbahce_area
+	caddebostan_area
+	bostanci_area
+	icerenkoy_area
+	kozyatagi_area
+	fikirtepe_area
+    }
+}
+
+adalar_region = {
+    areas = {
+	heybeliada_area
+	buyukada_area
+    }
+}
+
+maltepe_region = {
+    areas = {
+	kucukyali_area
+	buyukbakkalkoy_area
+	gulsuyu_area
+	maltepe_area
+	aydinevler_area
+	zumrutevler_area
+    }
+}
+
+pendik_region = {
+    areas = {
+	pendik_area
+	cinardere_area
+	kaynarca_area
+	guzelyali_area
+	gullubaglar_area
+	kurtkoy_area
+	suluntepe_area
+	kurnakoy_area
+    }
+}
+
+tuzla_region = {
+    areas = {
+	tuzla_area
+	aydinli_area
+	sifa_area
+	orhanli_area
+	tepeoren_area
+    }
+}
+
+beykoz_region = {
+    areas = {
+	kavacik_area
+	cubuklu_area
+	beykoz_area
+	yalikoy_beykoz_area
+	tokatkoy_area
+	anadolufeneri_area
+	riva_area
+	ornekkoy_area
+	mahmutsevketpasa_area
+	ishakli_area
+	goztepe_area
+	elmali_area
+	yavuzselim_area
+    }
+}
+
+umraniye_region = {
+    areas = {
+	kucukbakkalkoy_area
+	kayisdagi_area
+	hekimbasi_area
+	yamanevler_area
+	atakent_area
+	serifali_area
+	armaganevler_area
+	saray_area
+	ihlamurkuyu_area
+	dudullu_area
+	esensehir_area
+    }
+}
+
+kartal_region = {
+    areas = {
+	orhantepe_area
+	kartal_area
+	karliktepe_area
+	topselvi_area
+	soganlik_area
+	yakacik_area
+    }
+}
+
+sultanbeyli_region = {
+    areas = {
+	sultanbeyli_area
+	hamidiye_area
+	mecidiye_area
+	upper_sultanbeyli_area
+    }
+}
+
+sancaktepe_region = {
+    areas = {
+	kuzudere_area
+	osmangazi_area
+	sarigazi_area
+	sancaktepe_area
+	east_sancaktepe_area
+    }
+}
+
+cekmekoy_region = {
+    areas = {
+	cekmekoy_area
+	camlik_area
+	sultanciftligi_area
+	sultansuyu_area
+	samandira_area
+	sogukpinar_area
+	omerli_area
+    }
+}
+
+sile_region = {
+    areas = {
+	sile_area
+	sahilkoy_area
+	kizilcakoy_area
+	esenceli_area
+	orucoglu_area
+	ulupelit_area
+	korucukoy_area
+	ovacik_area
+	imrenli_area
+	bozgoca_area
+	agva_area
+	buyukbucakli_area
+	darlik_area
+	hasanli_area
+	osmankoy_area
+	sortullu_area
+	kalemkoy_area
     }
 }
 

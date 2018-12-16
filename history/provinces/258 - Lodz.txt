@@ -1,0 +1,14 @@
+add_core = ORT
+owner = ORT
+controller = ORT
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 4
+base_production = 3
+base_manpower = 4
+trade_goods = grain
+capital = "Yildiz"
+is_city = yes
+
+discovered_by = muslim

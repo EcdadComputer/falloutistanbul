@@ -1,0 +1,14 @@
+add_core = LCT
+owner = LCT
+controller = LCT
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Silahtaraga"
+is_city = yes
+
+discovered_by = muslim

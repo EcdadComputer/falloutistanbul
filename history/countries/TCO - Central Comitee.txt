@@ -1,0 +1,17 @@
+government = commune
+add_government_reform = central_comitee
+government_rank = 2
+primary_culture = turkish_2 
+religion = national_revolutionism
+technology_group = muslim
+capital = 402
+
+2223.1.1 = {
+	monarch = {
+		name = "Osman Yildiz"
+		birth_date = 2180.2.20
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}

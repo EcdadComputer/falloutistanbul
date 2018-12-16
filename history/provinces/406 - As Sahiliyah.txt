@@ -1,0 +1,17 @@
+add_core = HBP
+owner = HBP
+controller = HBP
+culture = turkish_2
+religion = national_revolutionism
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 7
+trade_goods = grain
+capital = "Sultan Çiftligi"
+is_city = yes
+
+discovered_by = muslim
+
+
+

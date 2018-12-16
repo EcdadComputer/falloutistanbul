@@ -54,24 +54,7 @@ monarch_names = {
 }
 
 leader_names = {
-	Alemdar Amasyali Ayas
-	Bali Barbaros Bayram
-	Cezzar Çandarli Çelebi Cerrah Çerkes Civan Çuhadar
-	Damad Dervis Defterdar
-	Gedik Gazi Gümülcineli Gürcü
-	Hadim Hekimoglu Hersekli
-	Köprülü Kemal Küçük Koca Karamanli Köse Kara Kanijeli Kemankes Kaymak Kavalali
-	Ishak Izzed
-	Lala Lefkeli
-	Malkoç Müezzinzade
-	Nevsehirli Nisanci
-	Oruç Uluç Osmancikli Ohrili Oflu
-	Rumi
-	Piri Pargali Piyale Pehlivan
-	Salih Sokullu Sari Silahdar Semiz Serdar
-	Topal Tayyar Turgut Tarhuncu
-	Veli
-	Yemisçi
+	Mehmet Mustafa Murat Ahmet Ali "Mehmet Ali" "Yunus Emre" Serkan Hüseyin Hasan Ýbrahim Fatih Ýsmail Ramazan Hakan Ömer Adem Osman Erkan Yusuf Serdar Abdullah Halil Süleyman Özgür Orhan Metin Kenan Mahmut Sinan Gökhan Ercan Engin Erhan Kadir Ayhan Mesut Recep Ugur Ümit Sedat Salih Kemal Yýlmaz Harun Erdal Bayram Volkan Baris Yasin Ferhat Cengiz Aydin Erol Levent Yasar Bülent Musa Özkan Ýsa Muhammet Yunus Emre Yakup Tuncay Bekir Selçuk Bilal Ersin Zafer Ferdi Yavuz Onur Ýlhan Arif Faruk Deniz Nihat Özcan Selim Soner Vedat Emrah Cemil Senol Muharrem Ýlker Abdurrahman Ýrfan Cemal Suat Turgay Tarýk Ekrem Cem Oktay Erdem Alper Taner Cetin Umut
 }
 
 ship_names = {

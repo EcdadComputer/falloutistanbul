@@ -1,9 +1,14 @@
+add_core = BYP
+owner = BYP
+controller = BYP
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 7
+base_production = 8
+base_manpower = 7
+trade_goods = grain
+capital = "Kartaltepe"
+is_city = yes
 
-
-
-
-
-
-
-
-
+discovered_by = muslim

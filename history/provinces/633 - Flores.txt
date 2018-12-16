@@ -1,4 +1,17 @@
+add_core = SOT
+owner = SOT
+controller = SOT
+culture = new_turkish
+religion = panturkism
+hre = no
+base_tax = 6
+base_production = 7
+base_manpower = 6
+trade_goods = grain
+capital = "Altayçesme"
+is_city = yes
 
+discovered_by = muslim
 
 
 

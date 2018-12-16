@@ -1,0 +1,16 @@
+add_core = NRR
+owner = NRR
+controller = NRR
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+trade_goods = grain
+capital = "Veliefendi"
+is_city = yes
+
+discovered_by = muslim
+
+

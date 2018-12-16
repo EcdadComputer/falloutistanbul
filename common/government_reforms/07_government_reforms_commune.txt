@@ -1,0 +1,25 @@
+local_commune = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	duration = 10
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	fixed_rank = 1
+	modifiers = {
+		max_states = 3
+	}
+	valid_for_nation_designer = no
+}
+
+central_comitee = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	duration = 10
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	fixed_rank = 2
+	modifiers = {
+		max_states = 6
+	}
+	valid_for_nation_designer = no
+}

@@ -1,0 +1,14 @@
+add_core = NRR
+owner = NRR
+controller = NRR
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+trade_goods = grain
+capital = "Çobançesme"
+is_city = yes
+
+discovered_by = muslim

@@ -1,7 +1,17 @@
+add_core = SOT
+owner = SOT
+controller = SOT
+culture = new_turkish
+religion = panturkism
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 9
+trade_goods = grain
+capital = "Altintepe"
+is_city = yes
 
-
-
-
+discovered_by = muslim
 
 
 

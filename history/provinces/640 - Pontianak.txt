@@ -1,3 +1,18 @@
+add_core = SOT
+owner = SOT
+controller = SOT
+culture = new_turkish
+religion = panturkism
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 5
+trade_goods = grain
+capital = "Aydinevler"
+is_city = yes
+
+discovered_by = muslim
+
 
 
 

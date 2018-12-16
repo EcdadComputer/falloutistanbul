@@ -1,0 +1,23 @@
+add_core = PRC
+owner = PRC
+controller = PRC
+culture = greek_2
+religion = christianism
+hre = no
+base_tax = 2
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Karaköy"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+
+
+
+
+

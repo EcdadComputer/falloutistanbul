@@ -1,0 +1,17 @@
+add_core = ESN
+owner = ESN
+controller = ESN
+culture = turkish_2
+religion = national_revolutionism
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = grain
+capital = "Esenler Forest"
+is_city = yes
+
+discovered_by = muslim
+
+
+

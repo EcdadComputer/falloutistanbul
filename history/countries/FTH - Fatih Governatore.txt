@@ -1,0 +1,16 @@
+government = republic
+government_rank = 2
+primary_culture = turkish_2 
+religion = neoliberalism
+technology_group = muslim
+capital = 14
+
+2223.1.1 = {
+	monarch = {
+		name = "Bilal Bankeroglu"
+		birth_date = 2195.1.1
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

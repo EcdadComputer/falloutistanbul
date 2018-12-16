@@ -1,3 +1,22 @@
+add_core = FTH
+owner = FTH
+controller = FTH
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 6
+trade_goods = grain
+capital = "Aksaray"
+is_city = yes
+
+discovered_by = muslim
+
+
+
+
+
 
 
 
