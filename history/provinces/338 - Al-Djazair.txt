@@ -1,0 +1,14 @@
+add_core = FRK
+owner = FRK
+controller = FRK
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+trade_goods = grain
+capital = "Yesilkent"
+is_city = yes
+
+discovered_by = postwar

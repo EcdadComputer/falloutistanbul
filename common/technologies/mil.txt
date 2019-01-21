@@ -1,0 +1,105 @@
+monarch_power = MIL
+
+# applied when a country is ahead of time in this technology
+# no bonus for MIL currently
+# ahead_of_time = {
+# }
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 2150
+	
+	sprite_level = 1
+
+	infantry_fire		= 	0.25
+	infantry_shock 		= 	0.20	
+	cavalry_shock  		= 	0.8	
+	land_morale 		= 	2.0
+}
+
+technology = {
+	# Tech 1
+	year = 2200
+	
+	infantry_shock		= 	0.1
+	infantry_fire 		= 	0.1
+	combat_width = 5
+	
+	fort_15th = yes
+	
+	enable = basic_artillery
+	enable = prewar_infantry
+	weapons = yes
+}
+
+technology = {
+	# Tech 2
+	year = 2225
+	
+	enable = t45dt_powerarmor
+	land_morale = 	0.5
+}
+
+technology = {
+	# Tech 3
+	year = 2240
+	
+	supply_limit 		= 	0.5
+	infantry_shock		= 	0.15
+	cavalry_shock		= 	0.2
+}
+
+technology = {
+	# Tech 4
+	year = 2255
+	infantry_fire = 0.20
+	barracks = yes
+	military_tactics = 0.25
+}
+
+technology = {
+	# Tech 5
+	year = 2270
+	artillery_fire 		= 	1
+	artillery_shock 	=	0.05
+	military_tactics 	= 	0.25
+	regimental_camp = yes
+}
+
+technology = {
+	# Tech 6
+	year = 2285
+	enable = postwar_infantry
+	maneuver_value 	= 0.25
+	combat_width = 2
+}
+
+technology = {
+	# Tech 7
+	year = 2300
+	artillery_shock 	= 	0.1
+	artillery_fire 		= 	0.4
+	enable = prewar_artillery
+}
+
+technology = {
+	# Tech 8
+	year = 2315
+	enable = t51b_powerarmor
+	maneuver_value 	= 0.25
+}
+
+technology = {
+	# Tech 9
+	year = 2330
+	supply_limit = 0.5
+	
+}
+
+technology = {
+	# Tech 10
+	year = 2345
+	
+	
+}

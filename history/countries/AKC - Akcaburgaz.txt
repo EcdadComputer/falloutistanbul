@@ -1,0 +1,17 @@
+government = commune
+add_government_reform = local_commune
+government_rank = 2
+primary_culture = turkish_2 
+religion = national_revolutionism
+technology_group = postwar
+capital = 422
+
+2223.1.1 = {
+	monarch = {
+		name = "Taha Cumali"
+		birth_date = 2178.2.20
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

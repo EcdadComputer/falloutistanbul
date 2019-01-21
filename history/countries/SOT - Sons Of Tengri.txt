@@ -4,7 +4,7 @@ add_government_reform = steppe_horde
 government_rank = 2
 primary_culture = new_turkish
 religion = panturkism
-technology_group = muslim
+technology_group = postwar
 capital = 639
 
 2219.1.1 = {

@@ -2,10 +2,10 @@ NDefines = {
 
 NGame = {
 	START_DATE = "2223.10.29",
-	END_DATE = "2800.1.1",
+	END_DATE = "9999.1.2",
 	MAX_RANDOM_NEW_WORLD = "1492.1.1",
 
-	GREAT_POWER_FRENZY_START = "2700.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
+	GREAT_POWER_FRENZY_START = "1700.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
 	GREAT_POWER_FRENZY_WARMUP_MONTHS = 600,	-- How many months does it take for the Great Power Frenzy to reach full potency after starting.
 	GREAT_POWER_FRENZY_QUICKSTART = 0,		-- Can the Great Power Frenzy start early due to one alliance block becoming too powerful?
 
@@ -179,8 +179,8 @@ NDiplomacy = {
 	AE_SAME_RELIGION_GROUP = 0.0,
 	AE_DIFFERENT_RELIGION = -0.5,
 	AE_HRE_INTERNAL = 0.5,
-	AE_ATTACKER_DEVELOPMENT = 0.02,	-- +50% cap (at 1000 development)
-	AE_DEFENDER_DEVELOPMENT = 0.02,	-- -50% cap (at 1000 development)
+	AE_ATTACKER_DEVELOPMENT = 0.01,	-- +50% cap (at 1000 development)
+	AE_DEFENDER_DEVELOPMENT = 0.01,	-- -50% cap (at 1000 development)
 	AE_DISTANCE_BASE = 0.75,
 	AE_SAME_OVERLORD = 0.5,
 	AE_PROVINCE_CAP = 30,				-- Province development above this will not count for AE (also used for warscore cost cap)
@@ -385,7 +385,6 @@ NDiplomacy = {
 	KNOWLEDGE_SHARING_DURATION_YEARS = 10,
 	KNOWLEDGE_SHARING_COST_PERCENT_MONTHLY = 10.0,
 	SCORNFUL_INSULT_PRESTIGE_COST = 5.0,
-	SCORNFUL_INSULT_FOUL_MOUTHED_COUNT = 10,
 
 	CHARTER_COMPANY_BASE_COST = 1000,
 	CHARTER_COMPANY_MINIMUM_COST = 100,
@@ -430,7 +429,7 @@ NCountry = {
 	INSTITUTION_CAP_IMP_DEVELOPMENT = 10,
 	INSTITUTION_BASE_IMP_DEVELOPMENT = 30,
 
-	EMBRACE_INSTITUTION_COST = 5,				-- 2.5 per development (autonomy modified)
+	EMBRACE_INSTITUTION_COST = 2.5,				-- 2.5 per development (autonomy modified)
 	MAXIMUM_CONDOTTIERI = 20,					-- Base number of units you can rent out
 	CORRUPTION_COST = 0.05,						-- cost for monthly combat per development
 	STATE_MAINTENANCE_DEV_FACTOR = 0.007,		-- per dev
@@ -502,6 +501,8 @@ NCountry = {
 	RANDOM_LUCKY_SLOW_TECH_PENALTY = 0.33,			-- Extra penalty on tech groups with more than 75% penalty when rolling for random lucky (lower = more penalty)
 
 	PLAYER_CAN_MOVE_FIXED_CAPITAL = 1,				-- Controls whether player can move capital even if capital is fixed
+	DEVELOPMENT_ON_CONTINENT_FOR_NEW_CAPITAL = 0.5,	-- How many percent of your development needs to be on the other continent to move your capital there
+
 
 	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
 	MIN_TECH_FOR_CIRCUMNAVIGATE = 9,			-- Must have this level of dip tech to circumnavigate the globe
@@ -532,8 +533,8 @@ NCountry = {
 	VICTORY_CARD_BONUS_SCORE = 1000,		-- score given per level
 
 	COUNTRIES_GETTING_SCORE = 10,
-	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 4,			-- extra expense for being above forcelimit
-	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 8,			-- extra expense for being above forcelimit
+	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
+	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 2,			-- extra expense for being above forcelimit
 	REPUBLICAN_TRADITION_YEARLY_INCREASE = 1,		-- how much it increases each year.
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.25,			-- percentage of piety kept at new ruler.
 	PIETY_INCREASE_AT_GOOD_WAR = 0.25,
@@ -587,6 +588,7 @@ NCountry = {
 	PS_BUY_EXPLORER = 50,
 	PS_ASSAULT = 5,
 	PS_ARTILLERY_BARRAGE = 50,
+	PS_NAVAL_BARRAGE = 50,
 	PS_FORCE_MARCH = 2,
 	PS_DEMAND_NON_WARGOAL_PROVINCE = 50,
 	PS_DEMAND_NON_WARGOAL_PEACE = 3,
@@ -707,15 +709,15 @@ NCountry = {
 	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
 	MONTHS_TO_CHANGE_CULTURE = 10,					-- How many months it will take to change culture in a province, per development.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
-	STARTING_ARMY_SIZE = 0.40,						-- Percentage of force limit
-	STARTING_ARMY_SIZE_AT_WAR = 0.5,				-- Percentage of force limit
+	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit
+	STARTING_ARMY_SIZE_AT_WAR = 1.0,				-- Percentage of force limit
 	STARTING_ARMY_SIZE_REBEL_THREAT = 0.05,			-- Percentage of rebel threat added to percentage of force limit
-	STARTING_FLEET_SIZE = 0.4, 						-- Starting fleet (as percentage of forcelimits)
+	STARTING_FLEET_SIZE = 0.1, 						-- Starting fleet (as percentage of forcelimits)
 	GALLEY_INLAND_SEA_COAST_RATIO = 0.75, 			-- % of ports that need to be inland seas for galleys to be considered important
 	REBEL_BREAK_STABILITY_SET = 0,					-- Stability will be set to this value when rebels break country.
 	REBEL_BREAK_EXHAUSTION_SET = 0, 				-- Exhaustion will be set to this value when rebels break country.
-	REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.1,		-- Multiplied with the province's development
-	REVOLT_SIZE_BASE = 2,
+	REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.3,		-- Multiplied with the province's development
+	REVOLT_SIZE_BASE = 4,
 	REVOLT_TECH_IMPACT = 0.03, 			-- % each tech increases size of rebels by this percent.
 	REVOLT_TECH_MORALE = 0.01,			-- 1% per tech level
 
@@ -841,8 +843,8 @@ NCountry = {
 	INNOVATIVENESS_DAYS_AFTER_FIRST_PICK_VIABLE = 90, -- How many days you cna still get innov
 	INNOVATIVENESS_MAX = 100.0, -- Innovativeness Cap
 	MIN_HARSH_TREATMENT_COST = 5, -- Minimum harsh treatment cost
-	CAN_CONVERT_TERRITORY_CULTURE = 0, -- Defines if you are allowed to culture convert territory provinces
-	CAN_CONVERT_TERRITORY_RELIGION = 0, -- Defines if you are allowed to convert religion of territory provinces
+	CAN_CONVERT_TERRITORY_CULTURE = 1, -- Defines if you are allowed to culture convert territory provinces
+	CAN_CONVERT_TERRITORY_RELIGION = 1, -- Defines if you are allowed to convert religion of territory provinces
 	ALLOWED_TERRITORY_VS_MAX_STATES = 1.0, -- Defines how much percentage compared to your max states you are allowed to have as territory without penalty
 	TERRITORY_PENALTY_CAP = 40,				-- How many territories maximum can penalize you
 	SETTLEMENT_GROWTH_DEVELOPMENT_INCREASE = 1, -- How much development may increase per year if a colonist is working on Settlement Growth.
@@ -850,6 +852,8 @@ NCountry = {
 	SETTLMENT_GROWTH_CHANCE_MIN = 0.05, -- Minimum chance of increasing development for colonists promoting Settlement Growth
 	SETTLEMENT_GROWTH_CHECK_INTERVAL = 365, -- Interval in days between checks for random development increase when working in Settlement Growth.
 	FREE_POLICIES_PER_CATEGORY = 1, -- Available free policies per monarch power category
+	TREASURE_SHIP_PASSAGE_FLAG_DECAY_DAYS = 365, -- How long the has_recent_tradeship_passage trigger is true after ship passage (days)
+	LEADER_PIPS_MONARCH_SKILL_INFLUENCE = 1.0, -- Influence of leader pips on monarch skills
 },
 
 NEconomy = {
@@ -877,7 +881,7 @@ NEconomy = {
 	INCREASE_AUTONOMY_STEP = 25,
 	INCREASE_AUTONOMY_MAX = 75,
 	AUTONOMY_CHANGE_DURATION = 10950,			-- about 30 years
-	LAND_TECH_MAINTENANCE_IMPACT = 0.01, 			-- % each tech increases it.
+	LAND_TECH_MAINTENANCE_IMPACT = 0.02, 			-- % each tech increases it.
 	ADVISOR_COST = 1.0,								-- Advisor cost modifier
 	GOLD_INFLATION_THRESHOLD = 0.0,					-- _EDEF_GOLD_INFLATION_THRESHOLD_
 	GOLD_INFLATION = 0.5,							-- _EDEF_GOLD_INFLATION_
@@ -892,13 +896,17 @@ NEconomy = {
 	WARTAXES_DURATION = 2,							-- _EDEF_WARTAXES_DURATION_
 	MINIMUM_INTERESTS = 1.0,						-- _EDEF_MINIMUM_INTERESTS_
 	BASE_INTERESTS = 4.0,							-- Base interests
-	LAND_MAINTENANCE_FACTOR = 0.5,					-- _EDEF_LAND_MAINTENANCE_FACTOR
-	HEAVY_SHIP_MAINT_FACTOR = 0.2,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
-	LIGHT_SHIP_MAINT_FACTOR = 0.06,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
-	GALLEY_MAINT_FACTOR = 0.08,						-- _EDEF_GALLEY_MAINT_FACTOR_
-	TRANSPORT_MAINT_FACTOR = 0.08,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
+	LAND_MAINTENANCE_FACTOR = 0.25,					-- _EDEF_LAND_MAINTENANCE_FACTOR
+	HEAVY_SHIP_MAINT_FACTOR = 0.10,					-- _EDEF_HEAVY_SHIP_MAINT_FACTOR_
+	LIGHT_SHIP_MAINT_FACTOR = 0.03,					-- _EDEF_LIGHT_SHIP_MAINT_FACTOR_
+	GALLEY_MAINT_FACTOR = 0.04,						-- _EDEF_GALLEY_MAINT_FACTOR_
+	TRANSPORT_MAINT_FACTOR = 0.04,					-- _EDEF_TRANSPORT_MAINT_FACTOR_
 	COLONIAL_MAINTENANCE_FACTOR = 8.0,				-- _EDEF_COLONIAL_MAINTENANCE_FACTOR_
-	MISSIONARY_MAINTENANCE_FACTOR = 10,				-- _EDEF_MISSIONARY_MAINTENANCE_FACTOR_
+	MISSIONARY_MAINTENANCE_FACTOR = 0.0,				-- How much a missionary costs in itself
+	MISSIONARY_MAINTENANCE_DEVELOPMENT_FACTOR = 1.0,	-- How much this is ncreased from development
+	MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 1.0,		-- How much this is ncreased from local autonomy
+	MISSIONARY_MAINTENANCE_AUTONOMY_BASE = 1.0,			-- The local autonomy is added to this base in the formula.
+	MISSIONARY_MAINTENANCE_DEVELOPMENT_CAP = 100,				-- Where dev will get capped by the system for calculations.
 	MERCHANT_TIME_DISTANCE = 0.25,					-- _EDEF_MERCHANT_TIME_DISTANCE_
 	MERCHANT_CHANCE = 0.35,							-- _EDEF_MERCHANT_CHANCE_
 	MERCHANT_COMPETE = 0.5,							-- _EDEF_MERCHANT_COMPETE_
@@ -947,6 +955,9 @@ NEconomy = {
 	CONSTRUCT_IN_SUBJECT_TIME_MULTIPLIER = 1.25,
 	BANK_LOAN_DURATION = 60,						-- Default bank loan duration in months
 	MIN_NEW_CACHED_STARTING_INCOME = 1.0,			-- Minimum historic starting income for newly created/released countries
+	EXPELLED_MINORITY_DEV_BONUS_FACTOR = 0.2,		-- Bonus development on minority expulsion completion, multiplied by origin province development
+	EXPELLING_MINORITY_COLONIST_COST_FACTOR = -0.5,	-- Colonist maintenance cost factor when expelling minority
+	EXPELLING_MINORITY_SETTLER_CHANCE_FACTOR = 0.005,	-- Settler chance bonus when expelling minority, multiplied by origin province development
 },
 
 NMilitary = {
@@ -969,7 +980,7 @@ NMilitary = {
 	FORT_DEVASTATION_IMPACT = -10,				-- multiplied by fortlevel/max fortlevel in area per year.
 	REVANCHISM_DEVASTATION_IMPACT = -0.02,			-- 100 revanschism is -2 a year.
 	SURRENDER_DEVASTATION_IMPACT = -3.4,
-	CONTROL_DEVASTATION_IMPACT = -6,				-- devastation recovery given by control
+	CONTROL_DEVASTATION_IMPACT = -1,				-- devastation recovery given by control
 
 	DEVASTATION_DEVELOPMENT_SCALE = 5,
 
@@ -985,11 +996,12 @@ NMilitary = {
 	MOVE_LOCK_PERCENTAGE = 0.5,						-- Unit movement is locked after this percentage of progress
 	REGULAR_LEADER_POWER = 1,						-- Used for generals & admirals (affects total pips)
 	EXPLORER_LEADER_POWER = 0.8,					-- Used for conquistadors & explorers (affects total pips)
-	BASE_MP_TO_MANPOWER = 0.25,		-- 250 men per manpower
+	BASE_MP_TO_MANPOWER = 0.025,		-- 250 men per manpower
 	SIEGE_ATTRITION = 1,
 	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
 	NATIVE_FEROCITY_IMPACT = 0.05,					-- how many percentage each ferocity gives in combat bonus
 	GALLEY_BONUS_INLAND_SEA = 1.0,
+	GALLEY_DICE_MALLUS_HIGH_SEA = 0,				-- Malus dice roll when not fighting in inland sea.
 	INSUFFICIENT_SUPPORT = -0.25,
 	SIEGE_MEMORY = 11,
 	SIEGE_MEMORY_SCALED = 0.5,						-- per fort level
@@ -997,51 +1009,51 @@ NMilitary = {
 	UNLOAD_COST_FRIENDLY = 12,						-- cost to unload to friendly territory
 	UNLOAD_COST_ENEMY = 36,							-- cost to hostile.
 	LEADER_MAINTENANCE_COST = 1,					-- how much mil power each leader costs.
-	GARRISON_SIZE = 1000, 							-- GARRISON_SIZE
+	GARRISON_SIZE = 100, 							-- GARRISON_SIZE
 	SIEGE_FORCE_NEEDED_MULTIPLIER = 3,				-- x times garrison to be able to siege.
 	MAX_BREACH = 3,
-	SIEGE_GARRISON_SURRENDER = 100,					-- A siege ends when there is less than 100 defenders left.
+	SIEGE_GARRISON_SURRENDER = 10,					-- A siege ends when there is less than 100 defenders left.
 	ASSAULT_WIDTH_LIMIT = 5,						-- how many times the garrison size that can effectively assault at the same time.
 	ASSAULT_ATTACKER_LOSS = 1.0, 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
 	ASSAULT_DEFENDER_LOSS = 0.05, 					-- _MDEF_ASSAULT_DEFENDER_LOSS = 10,
 	ASSAULT_DICE_MODIFIER = 5, 						-- _MDEF_ASSAULT_DICE_MODIFIER_
-	INF_REGIMENT_MANPOWER_COST = 1.0, 				-- 1 = 1000 men in cost.
-	CAV_REGIMENT_MANPOWER_COST = 1.0, 				-- 1 = 1000 men in cost.
-	ART_REGIMENT_MANPOWER_COST = 1.0, 				-- 1 = 1000 men in cost.
+	INF_REGIMENT_MANPOWER_COST = 0.1, 				-- 1 = 1000 men in cost.
+	CAV_REGIMENT_MANPOWER_COST = 0.01, 				-- 1 = 1000 men in cost.
+	ART_REGIMENT_MANPOWER_COST = 0.01, 				-- 1 = 1000 men in cost.
 	HEAVY_SHIP_SAILORS_COST = 200,					-- 1 = 1 men in cost.
 	LIGHT_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
 	GALLEY_SHIP_SAILORS_COST = 100,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
 	MAX_MANPOWER = 10, 								-- years in mp pool
-	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
+	MIN_MONTHLY_MANPOWER = 0.01,						-- 100 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--
 	SLAVE_RAIDS_DURATION = 3650,
-	INFANTRY_SPEED = 0.7, 							-- _MDEF_INFANTRY_SPEED = 10,
-	CAVALRY_SPEED = 0.7, 							-- _MDEF_CAVALRY_SPEED = 10,
-	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
-	HEAVY_SHIP_SPEED = 6.0, 						-- _MDEF_HEAVY_SHIP_SPEED = 10,
-	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
-	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
-	TRANSPORT_SPEED = 6.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
-	INFANTRY_COST = 20.0, 							-- _MDEF_INFANTRY_COST = 10,
-	CAVALRY_COST = 50.0, 							-- _MDEF_CAVALRY_COST = 10,
-	ARTILLERY_COST = 60.0, 							-- _MDEF_ARTILLERY_COST = 10,
-	FORTRESS_COST = 0.5,							-- base fort cost
-	HEAVY_SHIP_COST = 200, 							-- _MDEF_HEAVY_SHIP_COST = 10,
-	LIGHT_SHIP_COST = 80, 							-- _MDEF_LIGHT_SHIP_COST = 10,
-	GALLEY_COST = 40, 								-- _MDEF_GALLEY_COST = 10,
-	TRANSPORT_COST = 30,							-- _MDEF_TRANSPORT_COST = 10,
+	INFANTRY_SPEED = 1.4, 							-- _MDEF_INFANTRY_SPEED = 10,
+	CAVALRY_SPEED = 1.4, 							-- _MDEF_CAVALRY_SPEED = 10,
+	ARTILLERY_SPEED = 1.4, 							-- _MDEF_ARTILLERY_SPEED = 10,
+	HEAVY_SHIP_SPEED = 12.0, 						-- _MDEF_HEAVY_SHIP_SPEED = 10,
+	LIGHT_SHIP_SPEED = 20.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
+	GALLEY_SPEED = 8.0, 							-- _MDEF_GALLEY_SPEED = 10,
+	TRANSPORT_SPEED = 12.0, 							-- _MDEF_TRANSPORT_SPEED = 10,
+	INFANTRY_COST = 30.0, 							-- _MDEF_INFANTRY_COST = 10,
+	CAVALRY_COST = 120.0, 							-- _MDEF_CAVALRY_COST = 10,
+	ARTILLERY_COST = 80.0, 							-- _MDEF_ARTILLERY_COST = 10,
+	FORTRESS_COST = 3.0,							-- base fort cost
+	HEAVY_SHIP_COST = 900, 							-- _MDEF_HEAVY_SHIP_COST = 10,
+	LIGHT_SHIP_COST = 400, 							-- _MDEF_LIGHT_SHIP_COST = 10,
+	GALLEY_COST = 200, 								-- _MDEF_GALLEY_COST = 10,
+	TRANSPORT_COST = 120,							-- _MDEF_TRANSPORT_COST = 10,
 	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
-	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
+	CAVALRY_TIME = 240, 								-- _MDEF_CAVALRY_TIME = 10,
 	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
-	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
-	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
-	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
-	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,
+	HEAVY_SHIP_TIME = 1260, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 720, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
+	GALLEY_TIME = 720, 								-- _MDEF_GALLEY_TIME = 10,
+	TRANSPORT_TIME = 720, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
-	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
+	MONTHLY_REPAIR = 0.01,							-- Ship repair speed.
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
 	MERCENARY_REINFORCE_COST_MULTIPLIER = 1.0,			-- +100% extra cost for mercenaries being reinforced.
 	MERCENARY_BASE_COST = 10.0,					-- base cost added for a mercenary regiment
@@ -1148,12 +1160,22 @@ NMilitary = {
 	LEAGUE_LEADER_CHANGE_SCORE_THRESHOLD = 1.5,		-- Score * factor needed for leader change (Compared to current leader)
 	MAX_DRILL_DECAY = 0.9,							-- Drill can never Decay with more than this value.
 	AREA_REBEL_SUPPRESSION_MULTIPLIER = 5.0,		-- Armies suppressing rebels in areas adds this/<number of suppressed provinces> to rebel suppression in affected provinces.
+
+	-- flagship-related defines
+	FLAGSHIP_REQUIRED_NAVY_SIZE_IN_SAILORS = 1500,	-- The number of sailors employed in the navy required to unlock the flagship
+	FLAGSHIP_COST_DUCATS = 100,						-- The cost in ducats of a flagship
+	FLAGSHIP_COST_SAILORS = 300,					-- The cost in sailors of a flagship
+	FLAGSHIP_BUILDTIME = 730,						-- Building time in days of a flagship
+	FLAGSHIP_MAX_MODIFICATION = 3,					-- Maximum number of modifications on a flagship
+	FLAGSHIP_MORALE_HIT_ON_DESTRUCTION = 1.0,		-- Morale hit when the flagship is destroyed
 },
 
 NAI = {
 	ACCEPTABLE_BALANCE_DEFAULT = 1.7, --AI wants this advantage to enter battles typically. (There are some exceptions, e.g. offensives.)
 	ACCEPTABLE_BALANCE_FRIEND_IN_COMBAT = 0.75,
-	EDICT_VALUE_THRESHOLD = 100, -- The higher this value, the less the AI will use Edicts
+	EDICT_VALUE_THRESHOLD = 120, -- The higher this value, the less the AI will use Edicts
+	EDICT_VALUE_THRESHOLD_MULTIPLY_DEFICIT = 10, -- Change to above threshold in case of running deficit
+	EDICT_VALUE_THRESHOLD_MULTIPLY_LOW_INCOME = 3, -- Change to above threshold in case of low income
 	PRESS_THEM_FURTHER = 0, -- This makes AI that has been promised land require that the enemy is pressed further if they think it is possible. Set to 1 to activate
 	CALL_ACCEPTANCE_COALITION_VS_SUBJECT = -60, -- Acceptance penalty when an AI's Tributary (or currently non-existing Subject type with similar mechanic) calls to war against someone who is in a coalition against them
 	WANT_TRIBUTARY_LOST_MANDATE = 10, -- How important it is for Celestial Emperor to make tributaries out of neighbors.
@@ -1204,12 +1226,13 @@ NAI = {
 	MISSION_PICK_CHANCE = 33, -- Monthly chance of AI picking a mission if it lacks one (of 100)
 	TRADE_INTEREST_THRESHOLD = 3, -- Number of merchants required to be a nation with trade interest
 	DEFICIT_SPENDING_MIN_MONTHS = 6, -- AI must have at least this many monthly deficits of savings to be willing to deficit spend
+	DEFICIT_SPENDING_MIN_MONTHS_PEACETIME = 48, -- Same as DEFICIT_SPENDING_MIN_MONTHS, but during peacetime, no rebels and no war exhaustion
 	BIGSHIP_FRACTION = 0.4,	-- The proportion of big ships in an AI navy of light ships and big ships (for coastal sea countries, this fraction is mostly galleys)
 	ARTILLERY_FRACTION = 0.35, 	-- Ratio of artillery to infantry AI will build
 	FORCE_COMPOSITION_CHANGE_TECH_LEVEL = 11, -- Tech level at which AI will double its artillery fraction
 	TRANSPORT_FRACTION = 0.5, -- Max fraction of naval forcelimit that should be transports
 	INCOME_SAVINGS_FRACTION = 0.25, -- AI will reserve this amount of their surplus for long-term savings
-	OVER_FORCELIMIT_AVOIDANCE_FACTOR = 5, -- The higher this number is, the less willing the AI will be to exceed forcelimits
+	OVER_FORCELIMIT_AVOIDANCE_FACTOR = 10, -- The higher this number is, the less willing the AI will be to exceed forcelimits
 	DESIRED_SURPLUS = 0.1, -- AI will aim for having at least this fraction of their income as surplus when they don't have large savings
 	DESIRED_DEFICIT = 0.01, -- AI will try to spend this fraction of their money above their target for long term savings.
 	EXTRA_SURPLUS_WHEN_NEEDING_BUILDINGS = 0.15, -- AI will aim for having at least this fraction of their income as additional surplus when they need buildings
@@ -1488,7 +1511,7 @@ NAI = {
 	GUARANTEE_DESIRE_TOO_MANY_RELATIONS = -50,				-- AI desire for guaranteeing when it has or will get too many relations. Multiplies with number of relations above limit.
 
 	INVADING_BRAVERY = 1.0,									-- If (defender strength) / (invader strength) > INVADING_BRAVERY, the AI won't attempt a naval invasion
-	INVADING_MIN_HOME_RATIO = 0.5,							-- AI will attempts to keep at least this much of its troops in home territories, always, assuming it can divide its stacks enough.
+	INVADING_MAX_AWAY_RATIO = 0.45,							-- AI will never send more than this ratio to invade (Measured in strength)
 	HOME_FLEET_MAX_RATIO = 0.85,							-- Maximum proportion of warships in home fleet.
 	TRADE_POLICY_PROPAGATE_RELIGION_SCORE = 50.0,				-- Score for propagate religion trade policy (if selectable)
 	TRADE_POLICY_PREPARING_FOR_WAR_PER_PROVINCE_SCORE = 6.0,	-- Score per enemy province while preparing war for attack bonus trade policy (if selectable)
@@ -1505,17 +1528,21 @@ NAI = {
 	ADVISOR_MIN_SKILL_RELUCTANT_FIRE = 3,						-- AI will be reuluctant to fire advisors with skill above this (due to prior investment)
 	ADVISOR_PROMOTION_AGE_CUTOFF = 40,							-- AI will not promote advisors above this age
 	MIN_FORCE_LIMIT_SHARE_REGION_ASSIGN = 0.10,					-- AI will only assign armies larger that this to a region
-	MAX_ARMIES_NEW_REGION_ASSIGN_ALGORITHM = 0,					-- Max. amount of armies to use in new region assignment algorithm (fall back to old one)
-	MAX_TASKS_NEW_REGION_ASSIGN_ALGORITHM = 0,					-- Max. amount of tasks to use in new region assignment algorithm (fall back to old one)
+	MAX_ARMIES_NEW_REGION_ASSIGN_ALGORITHM = 12,				-- Max. amount of armies to use in new region assignment algorithm (fall back to old one)
+	MAX_TASKS_NEW_REGION_ASSIGN_ALGORITHM = 100,				-- Max. amount of tasks to use in new region assignment algorithm (fall back to old one)
 	ELECTORAL_REFORMATION_CONVERT_TRESHOLD = 0.1,				-- How much of an electors development needs to be a reformed religion for it to try and reform
 	TRADE_COMPANY_INVESTMENT_COST_THRESHOLD = 1.0,				-- How many times the cost of the investment must be in the treasury to consider buying it
 	ASSIMILATION_INTEREST_AMOUNT_FACTOR = 10,					-- Influence on assimilation interest from number of provinces left to conquer
 	INVASION_ARMY_LOOKUP_INTERVAL_ON_FAILURE = 15,				-- If AI fails to find an army for an invasion it will try again in this number of days
 	CHARTER_COMPANY_BASE_RELUCTANCE = -3,						-- Base reluctance to giving away provinces in charter company diplo action
 	CHARTER_COMPANY_DEVELOPMENT_RELUCTANCE = 3,				-- How much development needed to add one reluctance
-
 	WAR_WARSCORE_TO_JOIN = -100,								-- Minimum warscore for the AI to join a call for arms
 	WAR_MIN_WARSCORE_TO_JOIN = -25,								-- Starting warscore for the AI to join a call for arms
+	ARMY_DISTANCE_SCORE_IMPACT = 0.5,							-- Army <-> province distance impact on province evaluation
+	BORDER_DISTANCE_SCORE_IMPACT = 3.0,							-- Border <-> province distance impact on province evaluation
+	IMPORANT_PROVINCE_THRESHOLD = 0.05,							-- AI will try to defend provinces under threat worth more than this percentage of total development
+	REGION_PLANNING_HOMELAND_PRIORIZATION = 3.5,				-- Homeland priorization when assigning armies to regions (only applied when actually threatened)
+	MISSIONARY_MAINTENANCE_SHARE = 0.2,							-- The most an AI will spend of its income on a missionary
 },
 
 NGraphics = {
@@ -1854,6 +1881,8 @@ NReligion = {
 	RELIGIOUS_CONVERSION_AUTONOMY_WEIGHT = 0.05,			-- How much autonomy affects selection of province to spread religion to (from e.g. Centers of Reformation).
 	RELIGIOUS_CONVERSION_DEVELOPMENT_WEIGHT = 0.05,			-- How much development affects selection of province to spread religion to (from e.g. Centers of Reformation).
 
+	EXPEL_RELIGIOUS_MINORITY_THRESHOLD = -0.1,				-- Minimum conversion chance required to expel a religious minority from a province
+	EXPELLED_MINORITY_DURATION = 18250,						-- Duration of the "expelled_minority" modifier
 },
 
 NNationDesigner = {
@@ -1893,8 +1922,8 @@ NNationDesigner = {
 	IDEAS_LEVEL_COST_9 = 180,
 	IDEAS_LEVEL_COST_10 = 225,
 	IDEAS_MAX_LEVEL = 4,					-- Can be overriden in script
-	FLAT_TAX_AMOUNT = 4,					-- How much tax per province in 'flat' option
-	FLAT_MP_AMOUNT = 3,						-- How much manpower per province in 'flat' option
+	FLAT_TAX_AMOUNT = 2,					-- How much tax per province in 'flat' option
+	FLAT_MP_AMOUNT = 1.5,						-- How much manpower per province in 'flat' option
 	MAX_DISTANCE_TO_OWNER_AREA = 400,
 	MAX_DISCOVERED_PROVINCE_DISTANCE = 500,
 	DEFAULT_MALE_CHANCE = 75,				-- Default chance for males if ruler and heir start genders aren't the same.
@@ -1960,6 +1989,7 @@ NGovernment = {
 	LEGACY_NATIVES_REFORM_REPUBLIC_SPONSOR = "oligarchic_republic",
 	LEGACY_NATIVES_REFORM_MONARCHY_SPONSOR = "despotic_monarchy",
 	LEGACY_NATIVES_REFORM_THEOCRACY_SPONSOR = "theocratic_government",
+	LEADER_AS_MONARCH_TRADITION = 30, -- How much tradition leaders will get when generated for
 },
 
 }

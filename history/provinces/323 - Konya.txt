@@ -1,10 +1,16 @@
+add_core = HLK
+owner = HLK
+controller = HLK
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 5
+trade_goods = grain
+capital = "Mehmet Akif"
+is_city = yes
 
-
-
-
-
-
-
-
+discovered_by = postwar
 
 

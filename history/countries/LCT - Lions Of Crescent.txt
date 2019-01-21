@@ -4,7 +4,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = turkish_2 
 religion = islamism
-technology_group = muslim
+technology_group = postwar
 capital = 217
 
 2219.1.1 = {

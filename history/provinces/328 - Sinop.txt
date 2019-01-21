@@ -1,3 +1,19 @@
+add_core = HLK
+owner = HLK
+controller = HLK
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Fevzi Cakmak"
+is_city = yes
+
+discovered_by = postwar
+
+
 
 
 

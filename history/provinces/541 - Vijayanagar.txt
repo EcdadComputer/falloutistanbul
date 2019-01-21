@@ -1,4 +1,17 @@
+add_core = AKB
+owner = AKB
+controller = AKB
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 5
+trade_goods = grain
+capital = "Rasimpasa"
+is_city = yes
 
+discovered_by = postwar
 
 
 

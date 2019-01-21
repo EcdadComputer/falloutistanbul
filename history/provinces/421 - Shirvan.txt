@@ -1,0 +1,14 @@
+add_core = ESY
+owner = ESY
+controller = ESY
+culture = turkish_2
+religion = revisionism
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 5
+trade_goods = grain
+capital = "Yesilkent"
+is_city = yes
+
+discovered_by = postwar

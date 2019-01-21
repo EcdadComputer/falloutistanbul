@@ -1,9 +1,16 @@
+add_core = HLK
+owner = HLK
+controller = HLK
+culture = turkish_2
+religion = militarism
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 10
+trade_goods = grain
+capital = "Halkali"
+is_city = yes
 
-
-
-
-
-
-
+discovered_by = postwar
 
 

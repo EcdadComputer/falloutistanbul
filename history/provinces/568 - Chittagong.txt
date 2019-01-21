@@ -1,0 +1,14 @@
+add_core = AKB
+owner = AKB
+controller = AKB
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = grain
+capital = "Salacak"
+is_city = yes
+
+discovered_by = postwar

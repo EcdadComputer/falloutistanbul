@@ -11,4 +11,4 @@ trade_goods = grain
 capital = "Yenimahalle"
 is_city = yes
 fort_15th = yes 
-discovered_by = muslim
+discovered_by = postwar

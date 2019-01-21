@@ -3,8 +3,8 @@ add_government_reform = local_commune
 government_rank = 2
 primary_culture = turkish_2 
 religion = national_revolutionism
-technology_group = muslim
-capital = 39
+technology_group = postwar
+capital = 88
 
 2223.1.1 = {
 	monarch = {

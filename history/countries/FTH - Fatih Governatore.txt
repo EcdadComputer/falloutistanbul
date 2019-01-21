@@ -1,8 +1,9 @@
 government = republic
+add_government_reform = presidential_despot_reform
 government_rank = 2
 primary_culture = turkish_2 
 religion = neoliberalism
-technology_group = muslim
+technology_group = postwar
 capital = 14
 
 2223.1.1 = {

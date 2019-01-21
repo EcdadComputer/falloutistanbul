@@ -1,4 +1,17 @@
+add_core = GNG
+owner = GNG
+controller = GNG
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 5
+base_production = 6
+base_manpower = 6
+trade_goods = grain
+capital = "Güngören Merkez"
+is_city = yes
 
+discovered_by = postwar
 
 
 

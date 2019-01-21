@@ -1,10 +1,14 @@
+add_core = FRK
+owner = FRK
+controller = FRK
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Tahtakale"
+is_city = yes
 
-
-
-
-
-
-
-
-
-
+discovered_by = postwar

@@ -1,0 +1,16 @@
+add_core = BGC
+owner = BGC
+controller = BGC
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+trade_goods = grain
+capital = "Yenimahalle"
+is_city = yes
+
+discovered_by = postwar
+
+

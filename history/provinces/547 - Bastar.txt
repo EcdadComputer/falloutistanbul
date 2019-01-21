@@ -1,0 +1,14 @@
+add_core = ESP
+owner = ESP
+controller = ESP
+culture = turkish_2
+religion = nine_lights
+hre = no
+base_tax = 9
+base_production = 10
+base_manpower = 9
+trade_goods = grain
+capital = "Içerenköy"
+is_city = yes
+
+discovered_by = postwar

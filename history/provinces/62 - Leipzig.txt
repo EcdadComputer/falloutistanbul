@@ -1,0 +1,14 @@
+add_core = FNR
+owner = FNR
+controller = FNR
+culture = greek_2
+religion = christianism
+hre = no
+base_tax = 12
+base_production = 12
+base_manpower = 12
+trade_goods = grain
+capital = "Kadiköy Merkez"
+is_city = yes
+
+discovered_by = postwar

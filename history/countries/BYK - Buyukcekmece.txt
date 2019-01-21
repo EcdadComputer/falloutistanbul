@@ -1,0 +1,17 @@
+government = republic
+add_government_reform = presidential_despot_reform
+government_rank = 2
+primary_culture = turkish_2 
+religion = neo_kemalism
+technology_group = postwar
+capital = 101
+
+2223.1.1 = {
+	monarch = {
+		name = "Fadime Akgün"
+		birth_date = 2182.8.7
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

@@ -234,7 +234,25 @@ nationalist_group = {
 	
 	ittihadism = {
 		icon = 6
-		color = { 70 120 120 }
+		color = { 35 60 60 }
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country = {
+			tolerance_own = 2
+			trade_efficiency = 0.1
+		}
+		country_as_secondary = {
+			merchants = 1
+			tolerance_own = 1
+		}
+		
+		heretic = { TEST }	
+	}
+	
+	nine_lights = {
+		icon = 11
+		color = { 50 120 80 }
 		province = {
 			local_missionary_strength = -0.02
 		}

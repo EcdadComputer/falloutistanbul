@@ -21,6 +21,7 @@ country_event = {
 	trigger = {
 		NOT = { has_states_general_mechanic = yes }
 		NOT = { has_government_attribute = lottery_election }
+		NOT = { has_reform = pirate_republic_reform }
 	}
 
 	option = {
@@ -66,9 +67,19 @@ country_event = {
 				is_tribal = no 
 				government = republic
 				NOT = { republican_tradition = 20 }				
+				NOT = { has_reform = revolutionary_republic_reform }
 				has_dlc = "Res Publica"
 			}
 			add_government_reform = presidential_despot_reform	
+		}
+		else_if = {
+			limit = {
+				government = republic
+				NOT = { republican_tradition = 20 }	
+				has_reform = revolutionary_republic_reform
+			}
+			change_government_via_reform = monarchy
+			add_government_reform = revolutionary_empire_reform
 		}
 		if = {
 			limit = {
@@ -100,6 +111,7 @@ country_event = {
 		if = {
 			limit = { has_active_policy = mandatory_service }
 			define_ruler = {
+				
 				mil = 1
 				adm = 4
 				dip = 1
@@ -113,6 +125,7 @@ country_event = {
 				adm = 4
 				dip = 1					
 				fixed = yes
+				
 			}
 		}
 		if = {
@@ -136,6 +149,7 @@ country_event = {
 				adm = 1
 				mil = 1					
 				fixed = yes
+				
 				random_gender = yes # Allows random gender for republics
 			}
 		}
@@ -145,6 +159,7 @@ country_event = {
 				adm = 1
 				mil = 1					
 				fixed = yes
+				
 			}
 		}
 		if = {
@@ -169,6 +184,7 @@ country_event = {
 				dip = 1					
 				fixed = yes
 				random_gender = yes # Allows random gender for republics
+				
 			}
 		}
 		else = {
@@ -177,6 +193,7 @@ country_event = {
 				adm = 1
 				dip = 1					
 				fixed = yes
+				
 			}
 		}
 		if = {
@@ -244,6 +261,7 @@ country_event = {
 	trigger = {
 		NOT = { has_states_general_mechanic = yes }
 		NOT = { has_government_attribute = lottery_election }
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	
 	option = {
@@ -257,6 +275,7 @@ country_event = {
 				dip = 1					
 				fixed = yes
 				random_gender = yes # Allows random gender for republics
+				
 			}
 		}
 		else = {
@@ -265,6 +284,7 @@ country_event = {
 				adm = 4
 				dip = 1					
 				fixed = yes
+				name = DYNASTY
 			}
 		}
 		if = {
@@ -288,6 +308,7 @@ country_event = {
 				mil = 1					
 				fixed = yes
 				random_gender = yes # Allows random gender for republics
+				
 			}
 		}
 		else = {
@@ -296,6 +317,7 @@ country_event = {
 				adm = 1
 				mil = 1					
 				fixed = yes
+				
 			}
 		}
 		if = {
@@ -319,6 +341,7 @@ country_event = {
 				dip = 1					
 				fixed = yes
 				random_gender = yes # Allows random gender for republics
+				
 			}
 		}
 		else = {
@@ -327,6 +350,7 @@ country_event = {
 				adm = 1
 				dip = 1					
 				fixed = yes
+				
 			}
 		}
 		if = {
@@ -362,350 +386,6 @@ country_event = {
 				mil = -2
 				adm = -2
 				dip = -2
-				age = 30
-				name = "lastname"
-			}
-		}
-		if = {
-			limit = { 
-				has_faction = mr_aristocrats 
-			}
-			add_faction_influence = {
-				faction = mr_aristocrats
-				influence = 10
-			}				
-		}
-	}
-}
-
-########################################
-# Colonial Nations                     #
-########################################
-
-# Election!
-country_event = {
-	id = elections.707
-	title = "elections.EVTNAME707"
-	desc = "elections.EVTDESC707"
-	picture = ELECTION_REPUBLICAN_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "elections.EVTOPTB707"	# Bureaucrat Candidate
-		ai_chance = { factor = 20 }
-		FROM = {
-			define_ruler = {
-				adm = 4
-				mil = 2
-				dip = 2
-				fixed = yes
-			}
-			set_ruler_flag = appointed_by_overlord
-		}
-	}
-	option = {
-		name = "elections.EVTOPTC707"	# Diplomat Candidate
-		ai_chance = { factor = 20 }
-		FROM = {
-			define_ruler = {
-				adm = 2
-				dip = 4
-				mil = 2
-				fixed = yes
-			}
-			set_ruler_flag = appointed_by_overlord
-		}
-	}
-	option = {
-		name = "elections.EVTOPTD707"	# Military Candidate
-		ai_chance = { factor = 20 }
-		FROM = {
-			define_ruler = {
-				adm = 2
-				dip = 2
-				mil = 4
-				fixed = yes
-			}	
-			set_ruler_flag = appointed_by_overlord
-		}
-	}
-}
-
-# Colonial Assembly
-country_event = {
-	id = elections.711
-	title = "elections.EVTNAME711"
-	desc = "elections.EVTDESC711"
-	picture = ELECTION_REPUBLICAN_eventPicture
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "elections.EVTOPTB711"	# Suspicious indeed...
-		tooltip = {
-			FROM = {
-				add_liberty_desire = 10
-			}
-		}
-	}
-}
-
-## Winds of Liberty
-#country_event = {
-#	id = elections.712
-#	title = "elections.EVTNAME712"
-#	desc = "elections.EVTDESC712"
-#	picture = ELECTION_REPUBLICAN_eventPicture
-#	
-#	is_triggered_only = yes
-#
-#	option = {
-#		name = "elections.EVTOPTB712"	# Most worrisome...
-#		tooltip = {
-#			FROM = {
-#				add_liberty_desire = -25
-#			}
-#		}
-#	}
-#}
-
-
-# Lottery Election by Daniel Tolman
-country_event = {
-	id = elections.800
-	title = elections.800.t
-	desc = elections.800.d
-	picture = ELECTION_REPUBLICAN_eventPicture
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		has_government_attribute = lottery_election
-	}
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					has_active_policy = mandatory_service
-				}
-				define_exiled_ruler = {
-					exiled_as = lottery_candidate_a_@ROOT
-					random_gender = yes
-					min_age = 50
-					max_age = 75
-					adm = 2
-				}
-			}
-			else = {
-				define_exiled_ruler = {
-					exiled_as = lottery_candidate_a_@ROOT
-					min_age = 50
-					max_age = 75
-					adm = 2
-				}
-			}
-			if = {
-				limit = {
-					has_active_policy = mandatory_service
-				}
-				
-				define_exiled_ruler = {
-					exiled_as = lottery_candidate_b_@ROOT
-					min_age = 50
-					max_age = 75
-					dip = 2
-					random_gender = yes
-				}
-			}
-			else = {
-				define_exiled_ruler = {
-					exiled_as = lottery_candidate_b_@ROOT
-					min_age = 50
-					max_age = 75
-					dip = 2
-				}
-			}
-			if = {
-				limit = {
-					has_active_policy = mandatory_service
-				}
-				
-				define_exiled_ruler = {
-					exiled_as = lottery_candidate_c_@ROOT
-					min_age = 50
-					max_age = 75
-					mil = 2
-					random_gender = yes
-				}
-			}
-			else = {
-				define_exiled_ruler = {
-					exiled_as = lottery_candidate_c_@ROOT
-					min_age = 50
-					max_age = 75
-					mil = 2
-				}
-			}
-		}
-	}
-	
-	after = {
-		clear_exiled_ruler = lottery_candidate_a_@ROOT
-		clear_exiled_ruler = lottery_candidate_b_@ROOT
-		clear_exiled_ruler = lottery_candidate_c_@ROOT
-	}
-	
-	option = {
-		name = elections.800.a
-		ai_chance = {
-			factor = 0
-		}
-		set_ruler = lottery_candidate_a_@ROOT
-		add_republican_tradition = -25
-		if = {
-			limit = { 
-				has_faction = mr_guilds 
-			}
-			add_faction_influence = {
-				faction = mr_guilds
-				influence = 20
-			}				
-		}
-	}
-	option = {
-		name = elections.800.b
-		ai_chance = {
-			factor = 0
-		}
-		set_ruler = lottery_candidate_b_@ROOT
-		add_republican_tradition = -25
-		if = {
-			limit = { 
-				has_faction = mr_traders 
-			}
-			add_faction_influence = {
-				faction = mr_traders
-				influence = 20
-			}				
-		}
-	}
-	option = {
-		name = elections.800.c
-		ai_chance = {
-			factor = 0
-		}
-		set_ruler = lottery_candidate_c_@ROOT
-		add_republican_tradition = -25
-		if = {
-			limit = { 
-				has_faction = mr_aristocrats 
-			}
-			add_faction_influence = {
-				faction = mr_aristocrats
-				influence = 20
-			}				
-		}
-	}
-	option = { # lottery
-		name = elections.800.da
-		ai_chance = {
-			factor = 90
-		}
-		random_list = {
-			33 = { 
-				set_ruler = lottery_candidate_a_@ROOT 
-				if = {
-					limit = { 
-						has_faction = mr_guilds 
-					}
-					add_faction_influence = {
-						faction = mr_guilds
-						influence = 20
-					}				
-				}
-				if = {
-					limit = { 
-						has_faction = rr_jacobins 
-					}
-					add_faction_influence = {
-						faction = rr_jacobins
-						influence = 20
-					}				
-				}
-			}
-			33 = { 
-				set_ruler = lottery_candidate_b_@ROOT 
-				if = {
-					limit = { 
-						has_faction = mr_traders 
-					}
-					add_faction_influence = {
-						faction = mr_traders
-						influence = 20
-					}				
-				}
-				if = {
-					limit = { 
-						has_faction = rr_royalists 
-					}
-					add_faction_influence = {
-						faction = rr_royalists
-						influence = 20
-					}				
-				}
-			}
-			33 = { 
-				set_ruler = lottery_candidate_c_@ROOT 
-				if = {
-					limit = { 
-						has_faction = mr_aristocrats 
-					}
-					add_faction_influence = {
-						faction = mr_aristocrats
-						influence = 20
-					}				
-				}
-				if = {
-					limit = { 
-						has_faction = rr_girondists 
-					}
-					add_faction_influence = {
-						faction = rr_girondists
-						influence = 20
-					}				
-				}
-			}
-		}
-	}
-	option = { # nepotism
-		name = elections.800.e
-		trigger = {
-			has_government_attribute = enables_nepotism
-		}
-		ai_chance = { factor = 10 }
-		add_republican_tradition = -15
-		if = {
-			limit = { has_active_policy = mandatory_service }
-			define_ruler = {
-				min_age = 30
-				max_age = 50
-				mil = -1
-				adm = -1
-				dip = -1
-				age = 30
-				name = "lastname"
-				random_gender = yes # Allows random gender for republics
-			}
-		}
-		else = {
-			define_ruler = {
-				min_age = 30
-				max_age = 50
-				mil = -1
-				adm = -1
-				dip = -1
 				age = 30
 				name = "lastname"
 			}

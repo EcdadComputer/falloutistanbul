@@ -1,0 +1,19 @@
+government = monarchy
+
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = turkish_2 
+religion = islamism
+technology_group = postwar
+capital = 562
+
+2219.1.1 = {
+	monarch = {
+		name = "Süleyman"
+		dynasty = Süleymanoglu
+		birth_date = 2172.5.2
+		adm = 6
+		dip = 6
+		mil = 2
+	}
+}

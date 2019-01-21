@@ -1,0 +1,14 @@
+add_core = SUL
+owner = SUL
+controller = SUL
+culture = turkish_2
+religion = nine_lights
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Fikirtepe"
+is_city = yes
+
+discovered_by = postwar

@@ -1,9 +1,16 @@
+add_core = BGC
+owner = BGC
+controller = BGC
+culture = turkish_2
+religion = islamism
+hre = no
+base_tax = 7
+base_production = 6
+base_manpower = 7
+trade_goods = grain
+capital = "Sancaktepe"
+is_city = yes
 
-
-
-
-
-
-
+discovered_by = postwar
 
 

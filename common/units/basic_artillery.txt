@@ -1,0 +1,14 @@
+#1 Basic Artillery
+
+type = artillery
+
+maneuver = 2
+offensive_morale = 0
+defensive_morale = 1
+offensive_fire = 1
+defensive_fire = 0
+offensive_shock = 0
+defensive_shock = 0
+
+unitsize = 10
+manpower = 0.01

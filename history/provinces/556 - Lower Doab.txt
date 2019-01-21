@@ -1,0 +1,14 @@
+add_core = ESP
+owner = ESP
+controller = ESP
+culture = turkish_2
+religion = nine_lights
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 7
+trade_goods = grain
+capital = "Esatpasa"
+is_city = yes
+
+discovered_by = postwar

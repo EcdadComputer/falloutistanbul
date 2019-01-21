@@ -1,0 +1,9 @@
+#Ferry
+type = transport
+
+hull_size = 12
+base_cannons = 2
+sail_speed = 10
+
+trade_power = 0.5
+sprite_level = 1

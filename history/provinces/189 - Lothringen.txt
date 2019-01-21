@@ -1,3 +1,26 @@
+add_core = GNG
+owner = GNG
+controller = GNG
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 5
+trade_goods = grain
+capital = "Gençosman"
+is_city = yes
+
+discovered_by = postwar
+
+
+
+
+
+
+
+
+
 
 
 

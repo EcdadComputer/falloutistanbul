@@ -1,0 +1,23 @@
+add_core = GNG
+owner = GNG
+controller = GNG
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 4
+trade_goods = grain
+capital = "Menderes"
+is_city = yes
+
+discovered_by = postwar
+
+
+
+
+
+
+
+
+

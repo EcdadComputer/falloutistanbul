@@ -1,0 +1,14 @@
+add_core = BYK
+owner = BYK
+controller = BYK
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Türkoba"
+is_city = yes
+
+discovered_by = postwar

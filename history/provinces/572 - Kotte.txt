@@ -1,0 +1,14 @@
+add_core = CMC
+owner = CMC
+controller = CMC
+culture = turkish_2
+religion = nine_lights
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+trade_goods = grain
+capital = "Küçük Çamlica"
+is_city = yes
+
+discovered_by = postwar

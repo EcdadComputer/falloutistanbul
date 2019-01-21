@@ -3,7 +3,7 @@ add_government_reform = republican_dictatorship
 government_rank = 2
 primary_culture = turkish_2 
 religion = ittihadism
-technology_group = muslim
+technology_group = postwar
 capital = 57
 
 2223.1.1 = {

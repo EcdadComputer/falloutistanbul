@@ -1,9 +1,14 @@
+add_core = AKB
+owner = AKB
+controller = AKB
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 6
+base_production = 6
+base_manpower = 6
+trade_goods = grain
+capital = "Barbaros"
+is_city = yes
 
-
-
-
-
-
-
-
-
+discovered_by = postwar

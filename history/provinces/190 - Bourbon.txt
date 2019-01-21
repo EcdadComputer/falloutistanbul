@@ -1,0 +1,23 @@
+add_core = GNG
+owner = GNG
+controller = GNG
+culture = turkish_2
+religion = true_path
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 7
+trade_goods = grain
+capital = "Günestepe"
+is_city = yes
+
+discovered_by = postwar
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+add_core = HLK
+owner = HLK
+controller = HLK
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 10
+base_production = 9
+base_manpower = 10
+trade_goods = grain
+capital = "Halkali Istasyon"
+is_city = yes
+
+discovered_by = postwar
+
+

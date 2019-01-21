@@ -1,3 +1,19 @@
+add_core = BGC
+owner = BGC
+controller = BGC
+culture = turkish_2
+religion = neo_kemalism
+hre = no
+base_tax = 8
+base_production = 8
+base_manpower = 7
+trade_goods = grain
+capital = "Kocasinan"
+is_city = yes
+
+discovered_by = postwar
+
+
 
 
 

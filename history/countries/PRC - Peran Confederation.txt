@@ -1,7 +1,7 @@
 government = republic
 
 add_government_reform = venice_merchants_reform
-technology_group = muslim
+technology_group = postwar
 primary_culture = greek_2
 religion = christianism
 capital = 56

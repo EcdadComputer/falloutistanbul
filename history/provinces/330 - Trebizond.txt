@@ -1,3 +1,19 @@
+add_core = HLK
+owner = HLK
+controller = HLK
+culture = turkish_2
+religion = militarism
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+capital = "Atakent"
+is_city = yes
+
+discovered_by = postwar
+
+
 
 
 

@@ -11,7 +11,7 @@ trade_goods = grain
 capital = "South Mithatpasa"
 is_city = yes
 
-discovered_by = muslim
+discovered_by = postwar
 
 
 

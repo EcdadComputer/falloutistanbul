@@ -11,5 +11,5 @@ trade_goods = grain
 capital = "Göztepe"
 is_city = yes
 
-discovered_by = muslim
+discovered_by = postwar
 

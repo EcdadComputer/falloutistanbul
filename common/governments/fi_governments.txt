@@ -3,7 +3,7 @@ commune = {
 
 	color = { 255 10 20 }
 	legacy_government = {
-		revolutionary_republic
+		
 	}
 	reform_levels = {
 		government_type_commune = {
@@ -12,93 +12,4 @@ commune = {
 				local_commune
 			}
 		}
-		republican_virtues = {
-			reforms = {
-				republican_authoritarianism_reform
-				nepotism_reform
-				republicanism_reform
-				council_of_captains_reform
-				articles_of_agreement_reform
-				smugglers_haven_reform
-			}
-		}
-		frequent_elections_vs_consolidation_of_power = {
-			reforms = {
-				frequent_elections_reform
-				consolidation_of_power_reform
-				permanent_marathas_council_reform
-				governmental_purbias_register_reform
-				lottery_reform
-				council_of_the_indies_reform
-			}
-		}
-		federalism_vs_unitarism_vs_confederacy = {
-			reforms = {
-				provincial_governments_reform
-				administrative_divisions_reform
-				union_of_states_reform
-			}
-		}
-		parliamentary_vs_presidential = {
-			reforms = {
-				parliamentary_reform
-				presidential_reform
-				pirate_king_reform
-				war_against_the_world_doctrine_reform
-				black_market_consortium_reform
-			}
-		}
-		consolidation_of_power_category = {
-			reforms = {
-				broaden_executive_powers_reform
-				devolution_of_powers_reform
-			}
-		}
-		guiding_principle_of_administration = {
-			reforms = {
-				political_principle_reform
-				moral_principle_reform
-			}
-		}
-		electorate = {
-			reforms = {
-				landholders_reform
-				citizenry_reform
-			}
-		}
-		office_selection = {
-			reforms = {
-				appointment_by_committee_reform
-				bureaucratic_aparatus_reform
-				universal_suffrage_reform
-			}
-		}
-		question_of_dictatorship = {
-			reforms = {
-				seize_executive_power_reform
-				proclaim_divine_guidance_reform
-				strengthen_executive_powers_reform
-				reinforce_republican_values_reform
-				pirates_become_republic_reform
-			}
-		}
-	}
-	exclusive_reforms = {
-		parliamentary_reform
-		dutch_republic
-		merchants_reform
-		veche_republic
-		federal_republic
-		free_city
-		trading_city
-		american_republic
-		revolutionary_republic_reform
-		pirate_republic_reform
-	}
-	exclusive_reforms = {
-		lottery_reform
-		venice_merchants_reform
-		dutch_republic
-		pirate_republic_reform
-	}
 }

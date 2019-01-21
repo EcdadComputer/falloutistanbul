@@ -1,7 +1,7 @@
 government = republic
 
 add_government_reform = constitutional_republic
-technology_group = muslim
+technology_group = postwar
 primary_culture = turkish_2
 religion = neo_kemalism
 capital = 530

@@ -1,0 +1,18 @@
+government = republic
+
+add_government_reform = presidential_despot_reform
+government_rank = 2
+primary_culture = turkish_2 
+religion = true_path
+technology_group = postwar
+capital = 61
+
+2219.1.1 = {
+	monarch = {
+		name = "Cemal Celalettin"
+		birth_date = 2200.1.1
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}

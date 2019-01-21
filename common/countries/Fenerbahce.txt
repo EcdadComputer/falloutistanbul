@@ -2,174 +2,249 @@
 
 graphical_culture = easterngfx
 
-color = { 15  50  165 }
+color = { 0  0  255 }
 
 historical_idea_groups = {
-	religious_ideas
 	defensive_ideas
+	offensive_ideas
 	spy_ideas
 	trade_ideas
-	offensive_ideas
-	economic_ideas
+	religious_ideas
 	diplomatic_ideas
-	innovativeness_ideas
+	quality_ideas
+	administrative_ideas
 }
 
 historical_units = {
-	eastern_medieval_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	ottoman_spahi
-	ottoman_sekban
-	ottoman_reformed_spahi
-	ottoman_reformed_janissary
-	ottoman_toprakli_hit_and_run
-	ottoman_nizami_cedid
-	ottoman_toprakli_dragoon
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	ottoman_new_model
-	ottoman_lancer
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
 }
 
 monarch_names = {
-	"Georgios #0" = 40
-	"Alexandros #0" = 20
-	"Konstantinos #0" = 20
-	"Pavlos #0" = 15
-	"Andreas #0" = 10
-	"Nikolaos #0" = 10
-
-	"Alexandra #0" = -10
-	"Antonia #0" = -5
-	"Anna #0" = -5
-	"Artemisia #0" = -1
-	"Eirene #0" = -1
-	"Euphrosyne #0" = -1
-	"Laskarina #0" = -1
-	"Manto #0" = -1
-	"Thalia #0" = -1
-	"Sevasti #0" = -1
-	"Sophia #0" = -1
+	"Abdullah #0" = 10
+	"Abdurrahman #0" = 10
+	"Adem #0" = 10
+	"Ahmet #0" = 10
+	"Ali #0" = 10
+	"Alper #0" = 10
+	"Arif #0" = 10
+	"Aydin #0" = 10
+	"Ayhan #0" = 10
+	"Baris #0" = 10
+	"Bayram #0" = 10
+	"Bekir #0" = 10
+	"Bilal #0" = 10
+	"Bülent #0" = 10
+	"Cem #0" = 10
+	"Cemal #0" = 10
+	"Cemil #0" = 10
+	"Cengiz #0" = 10
+	"Cetin #0" = 10
+	"Deniz #0" = 10
+	"Ekrem #0" = 10
+	"Emrah #0" = 10
+	"Emre #0" = 10
+	"Engin #0" = 10
+	"Ercan #0" = 10
+	"Erdal #0" = 10
+	"Erdem #0" = 10
+	"Erhan #0" = 10
+	"Erkan #0" = 10
+	"Erol #0" = 10
+	"Ersin #0" = 10
+	"Faruk #0" = 10
+	"Fatih #0" = 10
+	"Ferdi #0" = 10
+	"Ferhat #0" = 10
+	"Gökhan #0" = 10
+	"Hakan #0" = 10
+	"Halil #0" = 10
+	"Harun #0" = 10
+	"Hasan #0" = 10
+	"Hüseyin #0" = 10
+	"Kadir #0" = 10
+	"Kemal #0" = 10
+	"Kenan #0" = 10
+	"Levent #0" = 10
+	"Mahmut #0" = 10
+	"Mehmet #0" = 10
+	"Mesut #0" = 10
+	"Metin #0" = 10
+	"Muhammet #0" = 10
+	"Muharrem #0" = 10
+	"Murat #0" = 10
+	"Musa #0" = 10
+	"Mustafa #0" = 10
+	"Nihat #0" = 10
+	"Oktay #0" = 10
+	"Onur #0" = 10
+	"Orhan #0" = 10
+	"Osman #0" = 10
+	"Ramazan #0" = 10
+	"Recep #0" = 10
+	"Salih #0" = 10
+	"Sedat #0" = 10
+	"Selim #0" = 10
+	"Selçuk #0" = 10
+	"Senol #0" = 10
+	"Serdar #0" = 10
+	"Serkan #0" = 10
+	"Sinan #0" = 10
+	"Soner #0" = 10
+	"Suat #0" = 10
+	"Süleyman #0" = 10
+	"Taner #0" = 10
+	"Tarik #0" = 10
+	"Tuncay #0" = 10
+	"Turgay #0" = 10
+	"Ugur #0" = 10
+	"Umut #0" = 10
+	"Vedat #0" = 10
+	"Volkan #0" = 10
+	"Yakup #0" = 10
+	"Yasar #0" = 10
+	"Yasin #0" = 10
+	"Yavuz #0" = 10
+	"Yunus #0" = 10
+	"Yusuf #0" = 10
+	"Yilmaz #0" = 10
+	"Zafer #0" = 10
+	"Ömer #0" = 10
+	"Özcan #0" = 10
+	"Özgür #0" = 10
+	"Özkan #0" = 10
+	"Ümit #0" = 10
+	"Ibrahim #0" = 10
+	"Ilhan #0" = 10
+	"Ilker #0" = 10
+	"Irfan #0" = 10
+	"Isa #0" = 10
+	"Ismail #0" = 10
 	
-
-	"Aineias #0" = 0
-	"Alexeios #0" = 0
-	"Ambrosios #0" = 0
-	"Bartholomaios #0" = 0
-	"Basileios #0" = 0
-	"Chrysanthos #0" = 0
-	"David #0" = 0
-	"Dimitrios #0" = 0
-	"Diogenes #0" = 0
-	"Dionysos #0" = 0
-	"Eirenaios #0" = 0
-	"Elpidios #0" = 0
-	"Gregorios #0" = 0
-	"Hektor #0" = 0
-	"Herakles #0" = 0
-	"Iason #0" = 0
-	"Ioannes #0" = 0
-	"Kastor #0" = 0
-	"Lambros #0" = 0
-	"Manuel #0" = 0
-	"Matthaios #0" = 0
-	"Nestor #0" = 0
-	"Nikomedes #0" = 0
-	"Orestes #0" = 0
-	"Palaemon #0" = 0
-	"Pelagios #0" = 0
-	"Petros #0" = 0
-	"Philemon #0" = 0
-	"Philippos #0" = 0
-	"Prokopios #0" = 0
-	"Skantarios #0" = 0
-	"Stefanos #0" = 0
-	"Tasos #0" = 0
-	"Theodoros #0" = 0
-	"Thomas #0" = 0
+	"Fatma  #0" = -1
+	"Ayse  #0" = -1
+	"Emine  #0" = -1
+	"Hatice  #0" = -1
+	"Zeynep  #0" = -1
+	"Özlem  #0" = -1
+	"Sibel  #0" = -1
+	"Dilek  #0" = -1
+	"Elif  #0" = -1
+	"Yasemin  #0" = -1
+	"Filiz  #0" = -1
+	"Songül  #0" = -1
+	"Meryem  #0" = -1
+	"Arzu  #0" = -1
+	"Hülya  #0" = -1
+	"Derya  #0" = -1
+	"Nurcan  #0" = -1
+	"Çigdem  #0" = -1
+	"Selma  #0" = -1
+	"Leyla  #0" = -1
+	"Sultan  #0" = -1
+	"Aynur  #0" = -1
+	"Hacer  #0" = -1
+	"Sevgi  #0" = -1
+	"Serap  #0" = -1
+	"Pýnar  #0" = -1
+	"Serpil  #0" = -1
+	"Aysel  #0" = -1
+	"Melek  #0" = -1
+	"Nuray  #0" = -1
+	"Aysegül  #0" = -1
+	"Esra  #0" = -1
+	"Zehra  #0" = -1
+	"Fadime  #0" = -1
+	"Semra  #0" = -1
+	"Havva  #0" = -1
+	"Meral  #0" = -1
+	"Neslihan  #0" = -1
+	"Yeliz  #0" = -1
+	"Gülay  #0" = -1
+	"Emel  #0" = -1
+	"Sevda  #0" = -1
+	"Serife  #0" = -1
+	"Gülcan  #0" = -1
+	"Hanife  #0" = -1
+	"Sevim  #0" = -1
+	"Zeliha  #0" = -1
+	"Aslý  #0" = -1
+	"Canan  #0" = -1
+	"Ebru  #0" = -1
+	"Ilknur  #0" = -1
+	"Halime  #0" = -1
+	"Tülay  #0" = -1
+	"Selda  #0" = -1
+	"Ayten  #0" = -1
+	"Aysun  #0" = -1
+	"Yýldýz  #0" = -1
+	"Kadriye  #0" = -1
+	"Gönül  #0" = -1
+	"Burcu  #0" = -1
+	"Ayfer  #0" = -1
+	"Sema  #0" = -1
+	"Sükran  #0" = -1
+	"Rukiye  #0" = -1
+	"Cemile  #0" = -1
+	"Türkan  #0" = -1
+	"Seher  #0" = -1
+	"Mehtap  #0" = -1
+	"Gülsen  #0" = -1
+	"Gülsüm  #0" = -1
+	"Sengül  #0" = -1
+	"Deniz  #0" = -1
+	"Tugba  #0" = -1
+	"Asiye  #0" = -1
+	"Necla  #0" = -1
+	"Nurgül  #0" = -1
+	"Gülten  #0" = -1
+	"Nihal  #0" = -1
+	"Nurten  #0" = -1
+	"Senay  #0" = -1
+	"Zübeyde  #0" = -1
+	"Esma  #0" = -1
+	"Güler  #0" = -1
+	"Birgül  #0" = -1
+	"Döndü  #0" = -1
+	"Keziban  #0" = -1
+	"Remziye  #0" = -1
+	"Yeter  #0" = -1
+	"Perihan  #0" = -1
+	"Öznur  #0" = -1
+	"Hayriye  #0" = -1
+	"Nese  #0" = -1
+	"Suna  #0" = -1
+	"Reyhan  #0" = -1
+	"Nermin  #0" = -1
+	"Hava  #0" = -1
+	"Nilüfer  #0" = -1
+	"Mine  #0" = -1
+	"Saliha  #0" = -1
 }
 
 leader_names = {
-	Anina Angelopoulos Androutsos Aulakos
-	Botsaris Bouboulis
-	Chatzeris Christianopoulos Chatzimoschos
-	Dalianis Doumpiotis Diakos Danglis Dagres Deligiannis Damodos
-	Flessas Farmakidis
-	Gotzias Gonemis Gouras Giatrakos Gazalis
-	Hatzipetros
-	Kapodistrias Kolokotronis Karaiskakis Kanaris Katsonis Karykes Kontares Karatzas Kriezotis Kirezis Kountouriotis Korais
-	Kairis Kyriazis Kontostavlos
-	Loukaris Livinis
-	Mavrokordatos Mavrikios Makris Mavromichalis Meletopoulos Metaxas Milios Meintanis Mavrogenes
-	Notaras
-	Pegas Patelaros Pelekasis Petrovas Panourgias Pappas Papatsonis Papazafiropoulos Psalidas Papanikolis Pinotsis
-	Ratzikotsikas
-	Serpetzoglou Skoufas Sachtouris Skourtis Stamatelopoulos Soumalis
-	Triantaphyllos Tsakalov Tsokris Tombazis
-	Vokos Verousis Vasileiou Voulgaris
-	Xanthos Xiros
-	Ypsilantis Yiannouzas
-	Zalykis Zeras
+	Mehmet Mustafa Murat Ahmet Ali "Mehmet Ali" "Yunus Emre" Serkan Hüseyin Hasan Ibrahim Fatih Ismail Ramazan Hakan Ömer Adem Osman Erkan Yusuf Serdar Abdullah Halil Süleyman Özgür Orhan Metin Kenan Mahmut Sinan Gökhan Ercan Engin Erhan Kadir Ayhan Mesut Recep Ugur Ümit Sedat Salih Kemal Yilmaz Harun Erdal Bayram Volkan Baris Yasin Ferhat Cengiz Aydin Erol Levent Yasar Bülent Musa Özkan Isa Muhammet Yunus Emre Yakup Tuncay Bekir Selçuk Bilal Ersin Zafer Ferdi Yavuz Onur Ilhan Arif Faruk Deniz Nihat Özcan Selim Soner Vedat Emrah Cemil Senol Muharrem Ilker Abdurrahman Irfan Cemal Suat Turgay Tarik Ekrem Cem Oktay Erdem Alper Taner Cetin Umut
 }
 
 ship_names = {
-	Ydra Lesvos Limnos Mikonos Salamis Samos Themistoklis Evripidis Aischylos Aristofanis Archimedes Demokritos Anaxagoras Diomedes Herakles Atreas Perseas Aigyptos
-	Aiolos Poseidon Athena Zeus Dias Kronos Rea Ouranos Hera Adonis Afroditi Charavgi Orion Iasonas Theseus Achilleas Mermidon Makedon Lakedemon Athineos Xenofon
-	Miltiades Alexandros Megalexandros Gorgona Midia Efterpi Andriantas Demetra Estia Apollon Ermis Gorgopodaros Gorgoplefstos Artemis Aris Theofanis Theochara
-	Filippos Edessa Ionia Korinthos Sparti Athenai Messina Anthosparti Kampos Argolida Argo Hephestos Hephestion Nearchos Parmenion Leonidas Averof Christos
-	Christoforos "Agios Christoforos" "Vasileus Christoforos" Theodora "Agia Theodora" "Agios Theodoros" "Vasileus Theodoros" Aftokrator "Vasillisa Theodora"
-	Nikephoros "Agios Nikephoros" "Vasileus Nikephoros" Pavlos "Apostolos Pavlos" "Osios Pavlos" Alexios "Agios Alexios" "Agia Alexia" Alexia "Vasileus Alexios"
-	"Vasilissa Alexia" Konstantinos "Agios Konstantinos" "Konstantinos o Megas" "Vasileus Konstantinos" "Autokrator Konstantinos" Herakleios "Agios Herakleios"
-	"Vasileus Herakleios" "Agios Herakleidios" "Agios Sergios" "Agios Maximos" "Agios Athanasios" "Agia Athanasia" "Agia Eleni" Eleni "Oraia Eleni" "Vasilissa Eleni"
-	"Aftokrateira Eleni" "Konstantinos kai Eleni" Stephanos "Agios Stephanos" "Agia Stephania" "Vasileus Stephanos" "Autokrator Stephanos" "Archangellos Michael"
-	"Archangellos Gavriel" "Archangellos Uriel" Archangellos Angelos Exangelos Exapterygon Cheruvim Seraphim Osios Osia Ostia Ioustiniani "Agios Ioustinianos"
-	"Agia Ioustiniani" "Aftokrator Ioustinianos" "Vasileus Ioustinianos" "Ioustinianos o Megas" "Vasileus Michael" Andronikos Androniki "Agios Andronikos"
-	"Agia Androniki" "Vasileus Andronikos" Vasileios Vasileia "Agios Vasileios" "Agia Vasileia" "Vasileus Vasileios" "Vasileios o Vulgaroktonos" Zoe "Agia Zoe"
-	"Iera Zoe" "Vasilissa Zoe" Velissarios Piri Reis Aetos "Dikephalos Aetos" "Dikephalos tou Vorra" Tryfilli Olympios Delphini Delphina Apochis Nemesis Yvris
-	Drakon Lykourgos Solon Kroisos Lysippos Phedias Ades Plutonas "Mpaniera tou Poseidona" Ikaros Daidalos Ikaria Imvros Fournoi Kia Naxos Chios "Christos Soter"
-	Soter Soterios Sozomenos Despotis "Despotis tou Moria" Peloponissos Nafplio Athos "Agion Oros" Panagia "Panagia Parthena" "Panagia Chrysorogiatissa"
-	"Panagia Pleomeni" "Panagia Dakryzousa" "Panagia Romaion" "Panagia Mitera" "Panagia Chrysospilliotisa" "Panagia Ampelokamoti" "Panagia Pigazousa"
-	"Panagia Anthousa" Hektor Menelaos Aias "Aias o Telamonios" Odysseas Ithaki Tilemachos Penelopi Minoas Minotavros Tryfon Agamemnon Ifigeneia Tavrida Tavros
-	Ichthys Galaxias Astir Asteras "Erythros Asteras" "Asteri tis Vithleem" "Agioi Topoi" Ierosolima Alexandreia "Doxa tou Theou" "Chara Theou" Tama Ieromartyras
-	Kyprianos Archiepiskopos Episkopos Doukas Ionion Aigaion Kritikon Kriti Zoniana Herakleia Herakleion Chania Lesvos Kypros Rodos Gigantas Polyphimos Laistrygona
-	Lamia Skylla Charyvdi Echidna Ofis Eva Hellespontos "Efxeinos Pontos" Prokopios Prokopia "Agios Prokopios" Prokomenos Frixos Elli Kerkyra Kyriarchos Kentavros
-	Kaisar Keravnos Keratios Keraton Konstantinoupolis "Leon Skleros" Lykia Thalassolykos Megaleion "Megaleion tis Makedonias" "Mikra Asia" Morfeas Orfeas Evridiki
-	Keryneia Ammochostos Ledra Pafos Akamas Amathous Evagoras Chalkanoras Grigorios Kyrillos Methodios Nike Okeanos Tyranos Orestis "Orgi Theou" Orthodoxia Loukia
-	Loukiani "Agios Loukas" "Osios Loukas" "Profitis Helias" "Ai Lias" Profitis Sampson David Goliath Patrida "Ellas Patrida" Patris Mitera Pateras Pater Papas Papadia
-	Diakonos Atlas Egkelados Titanas Yperion Helios "Helios Pantokrator" Diomedes Avgeas Achellos Acheros Stymfalida Lernea "Lernea Ydra" Nemea "Leon tis Nemeas" Kapros
-	Erymanthea Monastiri Ouranos Nefeli Gea Thalassa Mesogeios Politis Vasilevousa Thalassokrator Pantheras Leon Pelargos Mermigkas Onos Thesallia Thesalloniki
-	Theophylaktos Taxiarchos Stratilatis Oplarchigos Navarchos Sikelia Ellas Samos Samothraki Thraki Rodopi Alexandroupoli Andrianoupolis Thrylos Triton Achinos
-	Asterias Xiphias Xiphomachos Xiphos Spatha Zakynthos Zoodotis Ypertatos Andrianos Anthimos Dragumanos Akritas Digenis "Digenis Akritas" Mavroskyllos Charon
-	Kalymnos "Oraia Kalymnos" Psara Psaras Varrangios Gothos Pontios Mavromata Prasinomata Kastanomata Gata Gatos Magkas Foneas Karcharias Skyllopsaro Pyrofis
-	Stavraetos Zenon Machairas Kykkos Anthos Korax "Mavros Korax" Phovos Dimos "Theodoros Kolokotronis" "Odysseas Andrutsos" "Georgios Karaiskakis" "Rigas Ferraios"
-	"Dionysios Solomos" Dionysios Dionysos Talos Efterpi Mpoumpoulina "Manto Mavrogenous" "Konstantinos Kanaris" Nikitaras Tourkofagos Nikitas Vulgaroktonos Messologi
-	Palaiologos Komnenos "Isaakios Komnenos" Thalpori Lazaros "Apostolos Andreas" "Apostolos Varnavas" "Apostolos Loukas" "Apostolos Thomas" "Apostolos Petros"
-	"Apostolos Iakovos" "Apostolos Stephanos" "Apostolos Ioannis" "Apostolos Simonas "Apostolos Vartholomaios" "Apostolos Thaddeos" "12 Apostoloi" "Agioi Saranta"
-	"Agioi Pantes "Agios Nikolaos" Naftikos "O Leventis ton Psaron" Leventis Tromos Rigaina Rigas Doukaina Dioskouroi Romos Romylos "Romos kai Romylos" Papandreas
-	Papamichalis Papakonstantinos "Agios Demetrios" "Agios Theodoros" "Agia Marina" "Agia Evlampia" "Agia Charalambia" "Agios Charalambos" "Agios Charilaos"
-	"Agios Antonios" "Agia Antonia" "Agios Amvrosios" "Panagia Aggelovastachti" "Panagia Filoptochi" "Panagia Thalassofiliti" Thalassomachos Amfitriti "Thalassios Ippos"
-	"Thalassios Leontas" Persoktonos "Autokrator Isavros" "Autokrato Makedon" Thekla "Agia Thekla" Papaflessas "Alexandros Ypsilantis" "Nea Ionia" Alikarnassos
-	Voukefalas "Afros tou Kymmatos" "Afros tis Thalassas" Trieiris Iris Daphni Salamis Thermopyles Marathon Platees Theva "Epta Epi Thevas" Platees Dervenakia
-	"Elefthero Pouli" Peristera "Oraia Peristera" Perifanos Perifani Perifania Akritikon "Eleftheros Poliorkimenos" Eleftheros Eleftheria "Eleftheria H Thanatos"
-	"Vasileios Digenis Akritas" Prosfygopoulla Giofyri "Giofyrin tis Artas" Gefyra Serres Trikoupis Athanatos Athanati Styga "Agios Athanasios" "Agia Athanasia"
-	Athanasia Agerochos Agerochi Atrotos Atroti Pachyammos Maa "Agia Paraskevi" "Agios Paraskevas" Larnaka Amathounta Lemesos Kolossi Kolossos Akamas Lara Onisilos
-	Makarios "Agios Grigorios" Petra Kypseli Melissa Sfikas Kifinas Meliteni Kentri "Mavra Ori" Karagkiozis Nionios Nafpaktos Rodon Emporopoulla Emporas Chontros
-	Chontri "Iera Odos" "Egnatia Odos" Egnatia Ignatios Thalis Efkleidis Milos Omiros Iliada Odysseia Faiakas Fylakas Chalkida Psalida Zodia Morfou Aeriko Stefana
-	Oneiro Onar Ilarion "Agios Ilarion" Eftychia "Agios Eftychios" Chara Mystras "3 Charites" Nymfi Nymfes Ariadni Stratiotis Palikaras "Markos Mpotsaris"
-	"Lampros Katsonis" Karavida Kavouri "Mana Kavourina" Mana "Mana Kouragio" Kouragio Voreios Notios "To Vlemma tis Theodoras" Rizokarpaso Lysis Enosis
-	"Philippos o Makedon" Evropi Ypatia Aristarchos Aristos Ellada Ellinopoulla Romiopoulla Omorfi Omorfoulla Gynaika "Pyr Gyni kai Thalassa" Athlos Mpessa
-	Apostolos "Pani tou Osiou" "Osio Pani" Kapetanios Kapetaneos Sfyra Chelona Porfyrogennitos Porfyrogenis Porfyros Mavrogenis Savatogennimenos Kyriaki
-	"Re Alexis" Prigkipessa Prigkips Voskos Poimenas Thanatos Ethnikos Olympia Olympiakos Athlitis Axios Antaxios Antartis Kallinikos Prespa Sofia "Agia Sofia"
-	Vlacheia Vlachopoulla Vlacherna Kaffa Moldavia Vulgaria Servia Mavrovunion Ragusa Dyrrachion Kastoria Kastoras "Xylino Toichos" Xoanon Zoni Zallogos
-	"O Choros tou Zallogou" Achaea Aigina Avydos Akanthos Agrinion Alexandretta Patra Antipatra Amisos Amarinthos Antigona Antigoni Amphipolis Antiocheia Anir
-	Andros Apollonia Argos Elia Elaion Argyroupoli Tigris Tyros Foiniki Asklepios Pontos Pontios Varis Verga Vyvlos Vyzantion Vosporos Chersonesos Chalkis Kroton
-	Kyrinea Dekeleia Delos Delphoi Mantis Tiresias "Mantis Tiresias" Dodona Doryaion Doryn Sarissa Dorystolon Stolos Elefsis Ephesos Epidavros Eretria Efvoia Gaza
-	Gonios Goneas "Agios Onoufrios" "Agia Triada" Alikarnassos Helioupolis Ellinikon Ierapolis Ierapetra Chimera Iasos Ialysos Ithaki Kallipolis Kamares Kameiros
-	Kipos Kipoi Kimmerikon Knidos Kios Kionas Knossos Kos Kourion Laodikeia Lapithos Lation Lefkada Lissos Lindos Magnesia Marathonas Massalia Megara Methoni Militos
-	Mylasa Nafkratis Neapolis Nikea Nikopolis Nymfeon Nysa Odessos Olvia Orchomenos Erchomenos Palaikastro Pandosia Festos Pirreas Pella Phanagoria Pamflagonia Farnakia
-	Faros Fillipoi Fillipopolis Platanos Fokida Fokea Elis Kampania Kampana Poseidonia Psychros Pseira Pylos Pylion Amforeas Krassoamfora Region Sinopi Sozopolis
-	Pisidia Thassos Thespia Tragurion Trapeza "Agia Trapeza" Tripolis Troia Tylissos Tyra Vasilliki Zakros Vathypetra Megalopetra
+	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek
+	Mut Gülnar Mer Silifke Cilicia Larande
+	Bunsuz "Zeynül-Hac" "Semseddin Mehmet" Göksu
+}
+
+army_names = {
+	"$PROVINCE$ Ordusu"
+}
+
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
 }

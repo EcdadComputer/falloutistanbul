@@ -1,0 +1,19 @@
+government = republic
+
+add_government_reform = presidential_despot_reform
+government_rank = 2
+primary_culture = turkish_2 
+religion = militarism
+technology_group = postwar
+capital = 657
+
+2219.1.1 = {
+	monarch = {
+		name = "Niyazi"
+		dynasty = Odabasi
+		birth_date = 2189.6.10
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

@@ -19,7 +19,7 @@ kemalist_republic = {
 
 	trigger = {
 		government = republic
-		religion_group = kemalism_group
+		religion_group = sunni
 	}
 }
 
@@ -43,7 +43,6 @@ commune_vassal = {
 	}
 
 	trigger = {
-		government = commune
 		has_reform = local_commune
 	}
 }
@@ -68,7 +67,6 @@ general_secretary = {
 	}
 
 	trigger = {
-		government = commune
-		has_reform = central_commune
+		has_reform = central_comitee
 	}
 }

@@ -1,0 +1,19 @@
+government = monarchy
+
+add_government_reform = autocracy_reform
+government_rank = 2
+primary_culture = turkish_2 
+religion = islamism
+technology_group = postwar
+capital = 562
+
+2219.1.1 = {
+	monarch = {
+		name = "Semsettin"
+		dynasty = Akbayrak
+		birth_date = 2195.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
