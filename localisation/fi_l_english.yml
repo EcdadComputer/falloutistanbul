@@ -172,6 +172,7 @@
  PARTY_SECRETARY: "Party Secretary"
  GENERAL_SECRETARY: "General Secretary"
  electricity: "Electricity"
+ electricity_date: "1900"
  postwar: "Post-War Anatolian"
  postwar_desc: "Postawr desc anatolian"
  basic_artillery: "Basic Artillery"

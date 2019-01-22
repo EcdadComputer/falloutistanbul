@@ -52,7 +52,7 @@ spriteTypes = {
 	spriteType = {	
 		name = "GFX_unit_types_strip_mil_view"
 		texturefile = "gfx//interface//unit_types_strip.tga"
-		noOfFrames = 9
+		noOfFrames = 10
 		loadType = "INGAME"
 		
 		effectFile = "gfx/FX/buttonstate.lua"

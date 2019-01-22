@@ -1,4 +1,7 @@
 local_commune = {
+	potential = {
+        	religion_group = socialist_group 
+  	  }
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	duration = 10
@@ -12,6 +15,9 @@ local_commune = {
 }
 
 central_comitee = {
+	potential = {
+        	religion_group = socialist_group 
+  	  }
 	icon = "people_walking"
 	allow_normal_conversion = yes
 	duration = 10

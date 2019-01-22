@@ -94,12 +94,42 @@ technology = {
 	# Tech 9
 	year = 2330
 	supply_limit = 0.5
+	military_tactics	=	0.25
 	
 }
 
 technology = {
 	# Tech 10
 	year = 2345
-	
-	
+	fort_16th = yes
+	infantry_fire = 0.3
+}
+
+technology = {
+	# Tech 11
+	year = 2360
+	enable = motorised_infantry
+	infantry_shock 	= 0.5
+}
+
+technology = {
+	# Tech 12
+	year = 2375
+	artillery_shock 	= 	0.1
+	artillery_fire 		= 	1.0	
+	enable = advanced_artillery
+}
+
+technology = {
+	# Tech 13
+	year = 2390
+	cavalry_shock	= 1.0
+	enable = t60_powerarmor
+}
+
+technology = {
+	# Tech 14
+	year = 2405
+	combat_width = 2
+	training_fields = yes
 }

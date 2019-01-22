@@ -290,7 +290,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_view_religion"
 		texturefile = "gfx//interface//province_view_religion.tga"
-		noOfFrames = 11
+		noOfFrames = 28
 		loadType = "INGAME"
 	}
 	spriteType = {
@@ -1001,7 +1001,7 @@ spriteTypes = {
 	spriteType = {	
 		name = "GFX_unit_types_strip"
 		texturefile = "gfx//interface//unit_types_strip.tga"
-		noOfFrames = 9
+		noOfFrames = 10
 		loadType = "INGAME"
 		
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1011,7 +1011,7 @@ spriteTypes = {
 	spriteType = {	
 		name = "GFX_unit_types_strip_nontransp"
 		texturefile = "gfx//interface//unit_types_strip.tga"
-		noOfFrames = 9
+		noOfFrames = 10
 		loadType = "INGAME"
 		
 		effectFile = "gfx/FX/buttonstate.lua"

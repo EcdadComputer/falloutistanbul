@@ -136,7 +136,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 		}
-
+		
 		# Shown if province is a colony
 		guiButtonType = {
 			name = "burncolony_button"

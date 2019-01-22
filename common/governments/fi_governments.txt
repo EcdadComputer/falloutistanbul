@@ -10,6 +10,7 @@ commune = {
 			reforms = {
 				central_comitee
 				local_commune
+				}
 			}
 		}
 }

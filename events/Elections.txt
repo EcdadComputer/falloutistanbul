@@ -284,7 +284,6 @@ country_event = {
 				adm = 4
 				dip = 1					
 				fixed = yes
-				name = DYNASTY
 			}
 		}
 		if = {
