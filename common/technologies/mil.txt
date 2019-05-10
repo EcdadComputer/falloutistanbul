@@ -133,3 +133,45 @@ technology = {
 	combat_width = 2
 	training_fields = yes
 }
+
+technology = {
+	# Tech 15
+	year = 2420
+	military_tactics = 0.25
+}
+
+technology = {
+	# Tech 16
+	year = 2435
+	enable = advanced_infantry
+	infantry_fire = 0.3
+	
+}
+
+technology = {
+	# Tech 17
+	year = 2465
+	enable = selfpropelled_artillery
+	artillery_shock = 0.1
+	artillery_fire 	= 1.0
+}
+
+technology = {
+	# Tech 18
+	year = 2480
+	enable = eskisehir_powerarmor
+	maneuver_value 	= 0.25
+}
+
+technology = {
+	# Tech 19
+	year = 2495
+	conscription_center = yes
+	infantry_fire = 0.3
+}
+
+technology = {
+	# Tech 20
+	year = 2510
+	supply_limit = 0.25
+}
